@@ -54,8 +54,10 @@ jobs:
     - name: Prepare deployment
       run: |
         mkdir -p _site
-        cp bazel-bin/src/hello.js _site/
-        cp bazel-bin/src/index.html _site/
+        cp -r bazel-bin/src/index.js _site/
+        cp -r bazel-bin/src/components/*.js _site/
+        cp -r bazel-bin/src/index.html _site/
+        cp -r bazel-bin/src/styles.css _site/
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
