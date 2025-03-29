@@ -428,7 +428,7 @@
         "bzlTransitiveDigest": "rSCQtrXvyGARvrFVU6/ljsb3fEUesQ8qP+qXIMUoIhI=",
         "usagesDigest": "zt5rOG4MaRwaNzWmWmVCoI9D8ESEdckLWY37o+zCY6o=",
         "recordedFileInputs": {
-          "@@//pnpm-lock.yaml": "90c05d6e3693d877cc316082b738af8dd1d01368550679ec477c9cc5992eb163"
+          "@@//pnpm-lock.yaml": "65c47315b9ccbdfbca0fd34f6b89cb38c62c50ae8b9920df9a9fec04afb785a4"
         },
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -520,6 +520,543 @@
               "transitive_closure": {
                 "@bazel/ibazel": [
                   "0.24.0"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_next_env__14.2.26": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@next/env",
+              "version": "14.2.26",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-vO//GJ/YBco+H7xdQhzJxF7ub3SUwft76jwaeOyVVQFHCi5DCnkP16WHB+JBylo4vOKPoZBlR94Z8xBxNBdNJA==",
+              "url": "https://registry.npmjs.org/@next/env/-/env-14.2.26.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_next_env__14.2.26__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@next/env",
+              "version": "14.2.26",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "@next/env": [
+                  "14.2.26"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_next_swc-darwin-arm64__14.2.26": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@next/swc-darwin-arm64",
+              "version": "14.2.26",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-zDJY8gsKEseGAxG+C2hTMT0w9Nk9N1Sk1qV7vXYz9MEiyRoF5ogQX2+vplyUMIfygnjn9/A04I6yrUTRTuRiyQ==",
+              "url": "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-14.2.26.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_next_swc-darwin-arm64__14.2.26__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@next/swc-darwin-arm64",
+              "version": "14.2.26",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "@next/swc-darwin-arm64": [
+                  "14.2.26"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_next_swc-darwin-x64__14.2.26": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@next/swc-darwin-x64",
+              "version": "14.2.26",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-U0adH5ryLfmTDkahLwG9sUQG2L0a9rYux8crQeC92rPhi3jGQEY47nByQHrVrt3prZigadwj/2HZ1LUUimuSbg==",
+              "url": "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-14.2.26.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_next_swc-darwin-x64__14.2.26__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@next/swc-darwin-x64",
+              "version": "14.2.26",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "@next/swc-darwin-x64": [
+                  "14.2.26"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_next_swc-linux-arm64-gnu__14.2.26": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@next/swc-linux-arm64-gnu",
+              "version": "14.2.26",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-SINMl1I7UhfHGM7SoRiw0AbwnLEMUnJ/3XXVmhyptzriHbWvPPbbm0OEVG24uUKhuS1t0nvN/DBvm5kz6ZIqpg==",
+              "url": "https://registry.npmjs.org/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-14.2.26.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_next_swc-linux-arm64-gnu__14.2.26__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@next/swc-linux-arm64-gnu",
+              "version": "14.2.26",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "@next/swc-linux-arm64-gnu": [
+                  "14.2.26"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_next_swc-linux-arm64-musl__14.2.26": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@next/swc-linux-arm64-musl",
+              "version": "14.2.26",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-s6JaezoyJK2DxrwHWxLWtJKlqKqTdi/zaYigDXUJ/gmx/72CrzdVZfMvUc6VqnZ7YEvRijvYo+0o4Z9DencduA==",
+              "url": "https://registry.npmjs.org/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-14.2.26.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_next_swc-linux-arm64-musl__14.2.26__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@next/swc-linux-arm64-musl",
+              "version": "14.2.26",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "@next/swc-linux-arm64-musl": [
+                  "14.2.26"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_next_swc-linux-x64-gnu__14.2.26": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@next/swc-linux-x64-gnu",
+              "version": "14.2.26",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-FEXeUQi8/pLr/XI0hKbe0tgbLmHFRhgXOUiPScz2hk0hSmbGiU8aUqVslj/6C6KA38RzXnWoJXo4FMo6aBxjzg==",
+              "url": "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.2.26.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_next_swc-linux-x64-gnu__14.2.26__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@next/swc-linux-x64-gnu",
+              "version": "14.2.26",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "@next/swc-linux-x64-gnu": [
+                  "14.2.26"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_next_swc-linux-x64-musl__14.2.26": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@next/swc-linux-x64-musl",
+              "version": "14.2.26",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-BUsomaO4d2DuXhXhgQCVt2jjX4B4/Thts8nDoIruEJkhE5ifeQFtvW5c9JkdOtYvE5p2G0hcwQ0UbRaQmQwaVg==",
+              "url": "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-14.2.26.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_next_swc-linux-x64-musl__14.2.26__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@next/swc-linux-x64-musl",
+              "version": "14.2.26",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "@next/swc-linux-x64-musl": [
+                  "14.2.26"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_next_swc-win32-arm64-msvc__14.2.26": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@next/swc-win32-arm64-msvc",
+              "version": "14.2.26",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-5auwsMVzT7wbB2CZXQxDctpWbdEnEW/e66DyXO1DcgHxIyhP06awu+rHKshZE+lPLIGiwtjo7bsyeuubewwxMw==",
+              "url": "https://registry.npmjs.org/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-14.2.26.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_next_swc-win32-arm64-msvc__14.2.26__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@next/swc-win32-arm64-msvc",
+              "version": "14.2.26",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "@next/swc-win32-arm64-msvc": [
+                  "14.2.26"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_next_swc-win32-ia32-msvc__14.2.26": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@next/swc-win32-ia32-msvc",
+              "version": "14.2.26",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-GQWg/Vbz9zUGi9X80lOeGsz1rMH/MtFO/XqigDznhhhTfDlDoynCM6982mPCbSlxJ/aveZcKtTlwfAjwhyxDpg==",
+              "url": "https://registry.npmjs.org/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-14.2.26.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_next_swc-win32-ia32-msvc__14.2.26__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@next/swc-win32-ia32-msvc",
+              "version": "14.2.26",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "@next/swc-win32-ia32-msvc": [
+                  "14.2.26"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_next_swc-win32-x64-msvc__14.2.26": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@next/swc-win32-x64-msvc",
+              "version": "14.2.26",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-2rdB3T1/Gp7bv1eQTTm9d1Y1sv9UuJ2LAwOE0Pe2prHKe32UNscj7YS13fRB37d0GAiGNR+Y7ZcW8YjDI8Ns0w==",
+              "url": "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.2.26.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_next_swc-win32-x64-msvc__14.2.26__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@next/swc-win32-x64-msvc",
+              "version": "14.2.26",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "@next/swc-win32-x64-msvc": [
+                  "14.2.26"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_swc_counter__0.1.3": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@swc/counter",
+              "version": "0.1.3",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==",
+              "url": "https://registry.npmjs.org/@swc/counter/-/counter-0.1.3.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_swc_counter__0.1.3__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@swc/counter",
+              "version": "0.1.3",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "@swc/counter": [
+                  "0.1.3"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__at_swc_helpers__0.5.5": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "@swc/helpers",
+              "version": "0.5.5",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-KGYxvIOXcceOAbEk4bi/dVLEK9z8sZ0uBB3Il5b1rhfClSpcX0yfRO0KmTkqR2cnQDymwLB+25ZyMzICg/cm/A==",
+              "url": "https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.5.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__at_swc_helpers__0.5.5__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "@swc/helpers",
+              "version": "0.5.5",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {
+                "@swc/counter": "0.1.3",
+                "tslib": "2.8.1"
+              },
+              "transitive_closure": {
+                "@swc/helpers": [
+                  "0.5.5"
+                ],
+                "@swc/counter": [
+                  "0.1.3"
+                ],
+                "tslib": [
+                  "2.8.1"
                 ]
               },
               "lifecycle_build_target": false,
@@ -749,6 +1286,143 @@
               "npm_translate_lock_repo": "npm"
             }
           },
+          "npm__busboy__1.6.0": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "busboy",
+              "version": "1.6.0",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==",
+              "url": "https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__busboy__1.6.0__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "busboy",
+              "version": "1.6.0",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {
+                "streamsearch": "1.1.0"
+              },
+              "transitive_closure": {
+                "busboy": [
+                  "1.6.0"
+                ],
+                "streamsearch": [
+                  "1.1.0"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__caniuse-lite__1.0.30001707": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "caniuse-lite",
+              "version": "1.0.30001707",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-3qtRjw/HQSMlDWf+X79N206fepf4SOOU6SQLMaq/0KkZLmSjPxAkBOQQ+FxbHKfHmYLZFfdWsO3KA90ceHPSnw==",
+              "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001707.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__caniuse-lite__1.0.30001707__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "caniuse-lite",
+              "version": "1.0.30001707",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "caniuse-lite": [
+                  "1.0.30001707"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__client-only__0.0.1": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "client-only",
+              "version": "0.0.1",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==",
+              "url": "https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__client-only__0.0.1__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "client-only",
+              "version": "0.0.1",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "client-only": [
+                  "0.0.1"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
           "npm__csstype__3.1.3": {
             "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
             "attributes": {
@@ -784,6 +1458,50 @@
               "transitive_closure": {
                 "csstype": [
                   "3.1.3"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__graceful-fs__4.2.11": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "graceful-fs",
+              "version": "4.2.11",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==",
+              "url": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__graceful-fs__4.2.11__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "graceful-fs",
+              "version": "4.2.11",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "graceful-fs": [
+                  "4.2.11"
                 ]
               },
               "lifecycle_build_target": false,
@@ -877,6 +1595,306 @@
                 ],
                 "js-tokens": [
                   "4.0.0"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__nanoid__3.3.11": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "nanoid",
+              "version": "3.3.11",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==",
+              "url": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__nanoid__3.3.11__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "nanoid",
+              "version": "3.3.11",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "nanoid": [
+                  "3.3.11"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__next__14.2.26__react-dom_18.3.1_react_18.3.1": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "next",
+              "version": "14.2.26_react-dom@18.3.1+react@18.3.1",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {
+                "": [
+                  "next"
+                ]
+              },
+              "integrity": "sha512-b81XSLihMwCfwiUVRRja3LphLo4uBBMZEzBBWMaISbKTwOmq3wPknIETy/8000tr7Gq4WmbuFYPS7jOYIf+ZJw==",
+              "url": "https://registry.npmjs.org/next/-/next-14.2.26.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__next__14.2.26__react-dom_18.3.1_react_18.3.1__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "next",
+              "version": "14.2.26_react-dom@18.3.1+react@18.3.1",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {
+                "": [
+                  "next"
+                ]
+              },
+              "deps": {
+                "@next/swc-darwin-arm64": "14.2.26",
+                "@next/swc-darwin-x64": "14.2.26",
+                "@next/swc-linux-arm64-gnu": "14.2.26",
+                "@next/swc-linux-arm64-musl": "14.2.26",
+                "@next/swc-linux-x64-gnu": "14.2.26",
+                "@next/swc-linux-x64-musl": "14.2.26",
+                "@next/swc-win32-arm64-msvc": "14.2.26",
+                "@next/swc-win32-ia32-msvc": "14.2.26",
+                "@next/swc-win32-x64-msvc": "14.2.26",
+                "@next/env": "14.2.26",
+                "@swc/helpers": "0.5.5",
+                "busboy": "1.6.0",
+                "caniuse-lite": "1.0.30001707",
+                "graceful-fs": "4.2.11",
+                "postcss": "8.4.31",
+                "react": "18.3.1",
+                "react-dom": "18.3.1_react@18.3.1",
+                "styled-jsx": "5.1.1_react@18.3.1"
+              },
+              "transitive_closure": {
+                "next": [
+                  "14.2.26_react-dom@18.3.1+react@18.3.1"
+                ],
+                "@next/env": [
+                  "14.2.26"
+                ],
+                "@swc/helpers": [
+                  "0.5.5"
+                ],
+                "busboy": [
+                  "1.6.0"
+                ],
+                "caniuse-lite": [
+                  "1.0.30001707"
+                ],
+                "graceful-fs": [
+                  "4.2.11"
+                ],
+                "postcss": [
+                  "8.4.31"
+                ],
+                "react": [
+                  "18.3.1"
+                ],
+                "react-dom": [
+                  "18.3.1_react@18.3.1"
+                ],
+                "styled-jsx": [
+                  "5.1.1_react@18.3.1"
+                ],
+                "@next/swc-darwin-arm64": [
+                  "14.2.26"
+                ],
+                "@next/swc-darwin-x64": [
+                  "14.2.26"
+                ],
+                "@next/swc-linux-arm64-gnu": [
+                  "14.2.26"
+                ],
+                "@next/swc-linux-arm64-musl": [
+                  "14.2.26"
+                ],
+                "@next/swc-linux-x64-gnu": [
+                  "14.2.26"
+                ],
+                "@next/swc-linux-x64-musl": [
+                  "14.2.26"
+                ],
+                "@next/swc-win32-arm64-msvc": [
+                  "14.2.26"
+                ],
+                "@next/swc-win32-ia32-msvc": [
+                  "14.2.26"
+                ],
+                "@next/swc-win32-x64-msvc": [
+                  "14.2.26"
+                ],
+                "client-only": [
+                  "0.0.1"
+                ],
+                "loose-envify": [
+                  "1.4.0"
+                ],
+                "scheduler": [
+                  "0.23.2"
+                ],
+                "js-tokens": [
+                  "4.0.0"
+                ],
+                "nanoid": [
+                  "3.3.11"
+                ],
+                "picocolors": [
+                  "1.1.1"
+                ],
+                "source-map-js": [
+                  "1.2.1"
+                ],
+                "streamsearch": [
+                  "1.1.0"
+                ],
+                "@swc/counter": [
+                  "0.1.3"
+                ],
+                "tslib": [
+                  "2.8.1"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__picocolors__1.1.1": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "picocolors",
+              "version": "1.1.1",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+              "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__picocolors__1.1.1__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "picocolors",
+              "version": "1.1.1",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "picocolors": [
+                  "1.1.1"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__postcss__8.4.31": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "postcss",
+              "version": "8.4.31",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==",
+              "url": "https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__postcss__8.4.31__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "postcss",
+              "version": "8.4.31",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {
+                "nanoid": "3.3.11",
+                "picocolors": "1.1.1",
+                "source-map-js": "1.2.1"
+              },
+              "transitive_closure": {
+                "postcss": [
+                  "8.4.31"
+                ],
+                "nanoid": [
+                  "3.3.11"
+                ],
+                "picocolors": [
+                  "1.1.1"
+                ],
+                "source-map-js": [
+                  "1.2.1"
                 ]
               },
               "lifecycle_build_target": false,
@@ -1057,6 +2075,197 @@
                 ],
                 "js-tokens": [
                   "4.0.0"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__source-map-js__1.2.1": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "source-map-js",
+              "version": "1.2.1",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==",
+              "url": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__source-map-js__1.2.1__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "source-map-js",
+              "version": "1.2.1",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "source-map-js": [
+                  "1.2.1"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__streamsearch__1.1.0": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "streamsearch",
+              "version": "1.1.0",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==",
+              "url": "https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__streamsearch__1.1.0__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "streamsearch",
+              "version": "1.1.0",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "streamsearch": [
+                  "1.1.0"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__styled-jsx__5.1.1__react_18.3.1": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "styled-jsx",
+              "version": "5.1.1_react@18.3.1",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw==",
+              "url": "https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__styled-jsx__5.1.1__react_18.3.1__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "styled-jsx",
+              "version": "5.1.1_react@18.3.1",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {
+                "client-only": "0.0.1",
+                "react": "18.3.1"
+              },
+              "transitive_closure": {
+                "styled-jsx": [
+                  "5.1.1_react@18.3.1"
+                ],
+                "client-only": [
+                  "0.0.1"
+                ],
+                "react": [
+                  "18.3.1"
+                ],
+                "loose-envify": [
+                  "1.4.0"
+                ],
+                "js-tokens": [
+                  "4.0.0"
+                ]
+              },
+              "lifecycle_build_target": false,
+              "lifecycle_hooks_env": [],
+              "lifecycle_hooks_execution_requirements": [],
+              "bins": {},
+              "npm_translate_lock_repo": "npm"
+            }
+          },
+          "npm__tslib__2.8.1": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
+            "attributes": {
+              "package": "tslib",
+              "version": "2.8.1",
+              "root_package": "",
+              "link_workspace": "",
+              "link_packages": {},
+              "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==",
+              "url": "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz",
+              "commit": "",
+              "patch_args": [],
+              "patches": [],
+              "custom_postinstall": "",
+              "npm_auth": "",
+              "npm_auth_basic": "",
+              "npm_auth_username": "",
+              "npm_auth_password": "",
+              "lifecycle_hooks": [],
+              "extra_build_content": "",
+              "generate_bzl_library_targets": true
+            }
+          },
+          "npm__tslib__2.8.1__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+            "attributes": {
+              "package": "tslib",
+              "version": "2.8.1",
+              "dev": false,
+              "root_package": "",
+              "link_packages": {},
+              "deps": {},
+              "transitive_closure": {
+                "tslib": [
+                  "2.8.1"
                 ]
               },
               "lifecycle_build_target": false,

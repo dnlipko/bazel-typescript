@@ -7,18 +7,22 @@
     "@types/node": "^16.14.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
+    "serve": "^14.2.4",
     "typescript": "4.9.5"
   },
   "dependencies": {
+    "next": "^14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "main": "src/index.ts",
+  "main": "src/app/page.tsx",
   "repository": "https://github.com/dnlipko/bazel-typescript.git",
   "author": "dnlipko <dmitrii.lipko@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "bazel build //src:hello_binary",
-    "build:pages": "bazel build //src:gh_pages"
+    "dev": "next dev src",
+    "build": "next build src",
+    "start": "serve src/out",
+    "export": "next export src"
   }
 }

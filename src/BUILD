@@ -1,46 +1,39 @@
 load("@aspect_rules_ts//ts:defs.bzl", "ts_project")
-load("@aspect_bazel_lib//lib:copy_to_bin.bzl", "copy_to_bin")
-load("@aspect_rules_js//js:defs.bzl", "js_library")
+load("@aspect_rules_js//js:defs.bzl", "js_binary", "js_library")
+load("@aspect_rules_js//npm:defs.bzl", "npm_package")
 
 ts_project(
-    name = "hello_ts",
-    srcs = [
-        "components/App.tsx",
-        "components/Greeting.tsx",
-        "index.tsx",
-    ],
-    tsconfig = "tsconfig.json",
+    name = "next_ts",
+    srcs = glob(
+        [
+            "pages/**/*.ts",
+            "pages/**/*.tsx",
+            "components/**/*.ts",
+            "components/**/*.tsx",
+        ],
+        allow_empty = True,
+    ),
     declaration = True,
+    tsconfig = "tsconfig.json",
     deps = ["//:node_modules"],
 )
 
 js_library(
-    name = "hello",
-    srcs = [":hello_ts"],
+    name = "next_lib",
+    srcs = glob(
+        [
+            "styles/**/*.css",
+            "pages/**/*",
+            "components/**/*",
+        ],
+        allow_empty = True,
+    ) + [":next_ts"],
+    deps = ["//:node_modules"],
 )
 
-copy_to_bin(
-    name = "html",
-    srcs = ["index.html"],
-)
-
-copy_to_bin(
-    name = "styles",
-    srcs = ["styles.css"],
-)
-
-filegroup(
-    name = "hello_binary",
-    srcs = [":hello", ":html", ":styles"],
-)
-
-# Target for GitHub Pages deployment
-filegroup(
-    name = "gh_pages",
-    srcs = [
-        ":hello",
-        ":html",
-        ":styles",
-    ],
-    visibility = ["//visibility:public"],
+js_binary(
+    name = "next_build",
+    data = [":next_lib", "//:next_config"],
+    entry_point = "@npm//next/dist/bin/next",
+    args = ["build"],
 ) 
