@@ -3,11 +3,22 @@
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
+    "@bazel/ibazel": "^0.24.0",
     "@types/node": "^16.14.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "typescript": "4.9.5"
   },
-  "main": "src/hello.ts",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "main": "src/index.ts",
   "repository": "https://github.com/dnlipko/bazel-typescript.git",
   "author": "dnlipko <dmitrii.lipko@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "bazel build //src:hello_binary",
+    "build:pages": "bazel build //src:gh_pages"
+  }
 }
