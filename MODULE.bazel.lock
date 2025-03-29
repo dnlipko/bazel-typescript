@@ -10,15 +10,27 @@
     "https://bcr.bazel.build/modules/abseil-cpp/20230802.1/MODULE.bazel": "fa92e2eb41a04df73cdabeec37107316f7e5272650f81d6cc096418fe647b915",
     "https://bcr.bazel.build/modules/abseil-cpp/20240116.1/MODULE.bazel": "37bcdb4440fbb61df6a1c296ae01b327f19e9bb521f9b8e26ec854b6f97309ed",
     "https://bcr.bazel.build/modules/abseil-cpp/20240116.1/source.json": "9be551b8d4e3ef76875c0d744b5d6a504a27e3ae67bc6b28f46415fd2d2957da",
-    "https://bcr.bazel.build/modules/aspect_bazel_lib/1.29.2/MODULE.bazel": "3ca4ed580f4d7e7e47c0b4f2e4799e8c895a2e59e7fab922078cdd5fb631095b",
+    "https://bcr.bazel.build/modules/aspect_bazel_lib/1.30.2/MODULE.bazel": "c7e729d3fc7747d0f22206bde47de3696ff91609ea53a571ae16a1061f97440d",
     "https://bcr.bazel.build/modules/aspect_bazel_lib/1.31.2/MODULE.bazel": "7bee702b4862612f29333590f4b658a5832d433d6f8e4395f090e8f4e85d442f",
-    "https://bcr.bazel.build/modules/aspect_bazel_lib/1.32.1/MODULE.bazel": "e7bcb4f15c228f42e8dbcb9c8a1c9119c5f664aa55af8661378a89ba96a88f38",
-    "https://bcr.bazel.build/modules/aspect_bazel_lib/1.32.1/source.json": "d6f6e9833ffee1709a1c95cceda31ec0763d4c8ec30064ac3c19bdb78df085e9",
-    "https://bcr.bazel.build/modules/aspect_rules_js/1.23.1/MODULE.bazel": "3cd1c76201f6f35103888b10d6bec57b6889963405b7ad0a4c500c123ef6ed53",
-    "https://bcr.bazel.build/modules/aspect_rules_js/1.32.1/MODULE.bazel": "5b049c86d6e3a6e1901041e89cca24d1ee303cc454629aaf9c9cb520ac94be61",
-    "https://bcr.bazel.build/modules/aspect_rules_js/1.32.1/source.json": "6a8d1093954134ba3a6013a6ae68308b54a6148e8101c64c674052150b736edb",
-    "https://bcr.bazel.build/modules/aspect_rules_ts/1.4.0/MODULE.bazel": "5ca38dfe90f027fcec2215a737b644cf4d8cbcbdf02004f7c8bd44aa4efbec77",
-    "https://bcr.bazel.build/modules/aspect_rules_ts/1.4.0/source.json": "3d6491ecb502f15083b88e2f71b3ec8f44c8d4d20dc18493dbf82e593215ef00",
+    "https://bcr.bazel.build/modules/aspect_bazel_lib/1.32.0/MODULE.bazel": "67ac1c347f4954603280a4559c2a5b7c4dfdc40950bf15eb9a77d824ef933707",
+    "https://bcr.bazel.build/modules/aspect_bazel_lib/1.38.0/MODULE.bazel": "6307fec451ba9962c1c969eb516ebfe1e46528f7fa92e1c9ac8646bef4cdaa3f",
+    "https://bcr.bazel.build/modules/aspect_bazel_lib/1.38.1/MODULE.bazel": "17ae5bb970187e51c39a5ac21190279a58d7eeba83bc43e4165547cc0cf8de4a",
+    "https://bcr.bazel.build/modules/aspect_bazel_lib/1.40.0/MODULE.bazel": "eac4cf71482009e142804f72b2b102fb7e9812c326702d8b7206385b24f7805f",
+    "https://bcr.bazel.build/modules/aspect_bazel_lib/2.5.1/MODULE.bazel": "5728b3387ad78570c65f73c0b559b099265f6368127ac4e2bf99d5292c2480da",
+    "https://bcr.bazel.build/modules/aspect_bazel_lib/2.5.1/source.json": "9d7976da0da394cd9d5ada87e52631b560a99e1a09013eea916c5ebedfffb5b0",
+    "https://bcr.bazel.build/modules/aspect_rules_jasmine/1.1.1/MODULE.bazel": "76a37a6076c7413a0d06e9deccc3d7b83fdf5e829baf5da0ee40d0f3a7d11124",
+    "https://bcr.bazel.build/modules/aspect_rules_jasmine/1.1.1/source.json": "f1a57e717074c8452b28020699480946eb7a0f005b67a6584fcf21347180c7fc",
+    "https://bcr.bazel.build/modules/aspect_rules_js/1.29.2/MODULE.bazel": "1b8f06192f8372e33139e1f6aa97e1d56295eb5134b288d70a750d4d13a37736",
+    "https://bcr.bazel.build/modules/aspect_rules_js/1.33.1/MODULE.bazel": "db3e7f16e471cf6827059d03af7c21859e7a0d2bc65429a3a11f005d46fc501b",
+    "https://bcr.bazel.build/modules/aspect_rules_js/1.34.0/MODULE.bazel": "cbe059f9c11db239121a858c5586cbfbed56777eb089860553675b25085ab11a",
+    "https://bcr.bazel.build/modules/aspect_rules_js/1.38.0/MODULE.bazel": "d79ce0369f1164cb9ba2470747bc35e0348396c33e196e1cbaa32c85fe46e952",
+    "https://bcr.bazel.build/modules/aspect_rules_js/1.38.0/source.json": "cbfe6c07cda2b5cb4835b7a3415c641692d0a8f24c657a1cec1fadd5e3e1491f",
+    "https://bcr.bazel.build/modules/aspect_rules_lint/0.9.1/MODULE.bazel": "25acec929f4e96e8e5057ffa8df8a453762aff78931113ff13949b9775dc2b44",
+    "https://bcr.bazel.build/modules/aspect_rules_lint/0.9.1/source.json": "3858ac25d09896eb9e308d1ea8c5740e2d2b4f22b9d13fad75cf30a2f3b33f06",
+    "https://bcr.bazel.build/modules/aspect_rules_swc/1.1.0/MODULE.bazel": "07b2b954d5270d3de17e073a94e70e2f0443bff57fc2335ca801f77cebb84e21",
+    "https://bcr.bazel.build/modules/aspect_rules_swc/1.1.0/source.json": "f145b2255fcb966a92b12bc1dff9a61d5e22da057c133a8b53dd09e53c83d36b",
+    "https://bcr.bazel.build/modules/aspect_rules_ts/2.1.1/MODULE.bazel": "6f15aeb69042b51e932bec27792315acd46a9fea52280819e269a4f75140048f",
+    "https://bcr.bazel.build/modules/aspect_rules_ts/2.1.1/source.json": "28e02f8714aa3c7ffc9665bc932edd17a5d1299d4e52b59cf2b535b2aa3b16c4",
     "https://bcr.bazel.build/modules/bazel_features/0.1.0/MODULE.bazel": "47011d645b0f949f42ee67f2e8775188a9cf4a0a1528aa2fa4952f2fd00906fd",
     "https://bcr.bazel.build/modules/bazel_features/1.1.1/MODULE.bazel": "27b8c79ef57efe08efccbd9dd6ef70d61b4798320b8d3c134fd571f78963dbcd",
     "https://bcr.bazel.build/modules/bazel_features/1.11.0/MODULE.bazel": "f9382337dd5a474c3b7d334c2f83e50b6eaedc284253334cf823044a26de03e8",
@@ -44,6 +56,9 @@
     "https://bcr.bazel.build/modules/bazel_skylib/1.7.1/source.json": "f121b43eeefc7c29efbd51b83d08631e2347297c95aac9764a701f2a6a2bb953",
     "https://bcr.bazel.build/modules/buildozer/7.1.2/MODULE.bazel": "2e8dd40ede9c454042645fd8d8d0cd1527966aa5c919de86661e62953cd73d84",
     "https://bcr.bazel.build/modules/buildozer/7.1.2/source.json": "c9028a501d2db85793a6996205c8de120944f50a0d570438fcae0457a5f9d1f8",
+    "https://bcr.bazel.build/modules/gazelle/0.27.0/MODULE.bazel": "3446abd608295de6d90b4a8a118ed64a9ce11dcb3dda2dc3290a22056bd20996",
+    "https://bcr.bazel.build/modules/gazelle/0.30.0/MODULE.bazel": "f888a1effe338491f35f0e0e85003b47bb9d8295ccba73c37e07702d8d31c65b",
+    "https://bcr.bazel.build/modules/gazelle/0.30.0/source.json": "7af0779f99120aafc73be127615d224f26da2fc5a606b52bdffb221fd9efb737",
     "https://bcr.bazel.build/modules/google_benchmark/1.8.2/MODULE.bazel": "a70cf1bba851000ba93b58ae2f6d76490a9feb74192e57ab8e8ff13c34ec50cb",
     "https://bcr.bazel.build/modules/googletest/1.11.0/MODULE.bazel": "3a83f095183f66345ca86aa13c58b59f9f94a2f81999c093d4eeaa2d262d12f4",
     "https://bcr.bazel.build/modules/googletest/1.14.0.bcr.1/MODULE.bazel": "22c31a561553727960057361aa33bf20fb2e98584bc4fec007906e27053f80c6",
@@ -66,12 +81,16 @@
     "https://bcr.bazel.build/modules/protobuf/29.0/MODULE.bazel": "319dc8bf4c679ff87e71b1ccfb5a6e90a6dbc4693501d471f48662ac46d04e4e",
     "https://bcr.bazel.build/modules/protobuf/29.0/source.json": "b857f93c796750eef95f0d61ee378f3420d00ee1dd38627b27193aa482f4f981",
     "https://bcr.bazel.build/modules/protobuf/3.19.0/MODULE.bazel": "6b5fbb433f760a99a22b18b6850ed5784ef0e9928a72668b66e4d7ccd47db9b0",
+    "https://bcr.bazel.build/modules/protobuf/3.19.2/MODULE.bazel": "532ffe5f2186b69fdde039efe6df13ba726ff338c6bc82275ad433013fa10573",
+    "https://bcr.bazel.build/modules/protobuf/3.19.6/MODULE.bazel": "9233edc5e1f2ee276a60de3eaa47ac4132302ef9643238f23128fea53ea12858",
     "https://bcr.bazel.build/modules/pybind11_bazel/2.11.1/MODULE.bazel": "88af1c246226d87e65be78ed49ecd1e6f5e98648558c14ce99176da041dc378e",
     "https://bcr.bazel.build/modules/pybind11_bazel/2.11.1/source.json": "be4789e951dd5301282729fe3d4938995dc4c1a81c2ff150afc9f1b0504c6022",
     "https://bcr.bazel.build/modules/re2/2023-09-01/MODULE.bazel": "cb3d511531b16cfc78a225a9e2136007a48cf8a677e4264baeab57fe78a80206",
     "https://bcr.bazel.build/modules/re2/2023-09-01/source.json": "e044ce89c2883cd957a2969a43e79f7752f9656f6b20050b62f90ede21ec6eb4",
     "https://bcr.bazel.build/modules/rules_android/0.1.1/MODULE.bazel": "48809ab0091b07ad0182defb787c4c5328bd3a278938415c00a7b69b50c4d3a8",
     "https://bcr.bazel.build/modules/rules_android/0.1.1/source.json": "e6986b41626ee10bdc864937ffb6d6bf275bb5b9c65120e6137d56e6331f089e",
+    "https://bcr.bazel.build/modules/rules_buf/0.1.1/MODULE.bazel": "6189aec18a4f7caff599ad41b851ab7645d4f1e114aa6431acf9b0666eb92162",
+    "https://bcr.bazel.build/modules/rules_buf/0.1.1/source.json": "021363d254f7438f3f10725355969c974bb2c67e0c28667782ade31a9cdb747f",
     "https://bcr.bazel.build/modules/rules_cc/0.0.1/MODULE.bazel": "cb2aa0747f84c6c3a78dad4e2049c154f08ab9d166b1273835a8174940365647",
     "https://bcr.bazel.build/modules/rules_cc/0.0.10/MODULE.bazel": "ec1705118f7eaedd6e118508d3d26deba2a4e76476ada7e0e3965211be012002",
     "https://bcr.bazel.build/modules/rules_cc/0.0.13/MODULE.bazel": "0e8529ed7b323dad0775ff924d2ae5af7640b23553dfcd4d34344c7e7a867191",
@@ -87,6 +106,10 @@
     "https://bcr.bazel.build/modules/rules_foreign_cc/0.9.0/MODULE.bazel": "c9e8c682bf75b0e7c704166d79b599f93b72cfca5ad7477df596947891feeef6",
     "https://bcr.bazel.build/modules/rules_fuzzing/0.5.2/MODULE.bazel": "40c97d1144356f52905566c55811f13b299453a14ac7769dfba2ac38192337a8",
     "https://bcr.bazel.build/modules/rules_fuzzing/0.5.2/source.json": "c8b1e2c717646f1702290959a3302a178fb639d987ab61d548105019f11e527e",
+    "https://bcr.bazel.build/modules/rules_go/0.33.0/MODULE.bazel": "a2b11b64cd24bf94f57454f53288a5dacfe6cb86453eee7761b7637728c1910c",
+    "https://bcr.bazel.build/modules/rules_go/0.38.1/MODULE.bazel": "fb8e73dd3b6fc4ff9d260ceacd830114891d49904f5bda1c16bc147bcc254f71",
+    "https://bcr.bazel.build/modules/rules_go/0.39.1/MODULE.bazel": "d34fb2a249403a5f4339c754f1e63dc9e5ad70b47c5e97faee1441fc6636cd61",
+    "https://bcr.bazel.build/modules/rules_go/0.39.1/source.json": "f21e042154010ae2c944ab230d572b17d71cdb27c5255806d61df6ccaed4354c",
     "https://bcr.bazel.build/modules/rules_java/4.0.0/MODULE.bazel": "5a78a7ae82cd1a33cef56dc578c7d2a46ed0dca12643ee45edbb8417899e6f74",
     "https://bcr.bazel.build/modules/rules_java/5.3.5/MODULE.bazel": "a4ec4f2db570171e3e5eb753276ee4b389bae16b96207e9d3230895c99644b86",
     "https://bcr.bazel.build/modules/rules_java/6.0.0/MODULE.bazel": "8a43b7df601a7ec1af61d79345c17b31ea1fedc6711fd4abfd013ea612978e39",
@@ -143,16 +166,17 @@
     "https://bcr.bazel.build/modules/stardoc/0.7.1/source.json": "b6500ffcd7b48cd72c29bb67bcac781e12701cc0d6d55d266a652583cfcdab01",
     "https://bcr.bazel.build/modules/upb/0.0.0-20220923-a547704/MODULE.bazel": "7298990c00040a0e2f121f6c32544bab27d4452f80d9ce51349b1a28f3005c43",
     "https://bcr.bazel.build/modules/zlib/1.2.11/MODULE.bazel": "07b389abc85fdbca459b69e2ec656ae5622873af3f845e1c9d80fe179f3effa0",
+    "https://bcr.bazel.build/modules/zlib/1.2.12/MODULE.bazel": "3b1a8834ada2a883674be8cbd36ede1b6ec481477ada359cd2d3ddc562340b27",
     "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.3/MODULE.bazel": "af322bc08976524477c79d1e45e241b6efbeb918c497e8840b8ab116802dda79",
     "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.3/source.json": "2be409ac3c7601245958cd4fcdff4288be79ed23bd690b4b951f500d54ee6e7d",
     "https://bcr.bazel.build/modules/zlib/1.3.1/MODULE.bazel": "751c9940dcfe869f5f7274e1295422a34623555916eb98c174c1e945594bf198"
   },
   "selectedYankedVersions": {},
   "moduleExtensions": {
-    "@@aspect_bazel_lib+//lib:extensions.bzl%ext": {
+    "@@aspect_bazel_lib+//lib:extensions.bzl%toolchains": {
       "general": {
-        "bzlTransitiveDigest": "eFdRHtSg5l1vg1XRv8KXw6xGCSUsdIGDt2ejrQTAZBk=",
-        "usagesDigest": "Gz2NH1drJdrmhNF2Uzqe36SRa4ry8TQLkiaP0nGbM6k=",
+        "bzlTransitiveDigest": "6XxNgkOEeLFPTVFLgg1VftKAfJCC8ajVm4xd/+kOZs4=",
+        "usagesDigest": "3K0M9Ry/EWuXixuiKkLKE5a/5BizuIhe5KNL6tivuuk=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -167,6 +191,12 @@
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:copy_directory_toolchain.bzl%copy_directory_platform_repo",
             "attributes": {
               "platform": "darwin_arm64"
+            }
+          },
+          "copy_directory_freebsd_amd64": {
+            "repoRuleId": "@@aspect_bazel_lib+//lib/private:copy_directory_toolchain.bzl%copy_directory_platform_repo",
+            "attributes": {
+              "platform": "freebsd_amd64"
             }
           },
           "copy_directory_linux_amd64": {
@@ -205,6 +235,12 @@
               "platform": "darwin_arm64"
             }
           },
+          "copy_to_directory_freebsd_amd64": {
+            "repoRuleId": "@@aspect_bazel_lib+//lib/private:copy_to_directory_toolchain.bzl%copy_to_directory_platform_repo",
+            "attributes": {
+              "platform": "freebsd_amd64"
+            }
+          },
           "copy_to_directory_linux_amd64": {
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:copy_to_directory_toolchain.bzl%copy_to_directory_platform_repo",
             "attributes": {
@@ -233,28 +269,35 @@
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:jq_toolchain.bzl%jq_platform_repo",
             "attributes": {
               "platform": "darwin_amd64",
-              "version": "1.6"
+              "version": "1.7"
             }
           },
           "jq_darwin_arm64": {
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:jq_toolchain.bzl%jq_platform_repo",
             "attributes": {
               "platform": "darwin_arm64",
-              "version": "1.6"
+              "version": "1.7"
             }
           },
           "jq_linux_amd64": {
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:jq_toolchain.bzl%jq_platform_repo",
             "attributes": {
               "platform": "linux_amd64",
-              "version": "1.6"
+              "version": "1.7"
+            }
+          },
+          "jq_linux_arm64": {
+            "repoRuleId": "@@aspect_bazel_lib+//lib/private:jq_toolchain.bzl%jq_platform_repo",
+            "attributes": {
+              "platform": "linux_arm64",
+              "version": "1.7"
             }
           },
           "jq_windows_amd64": {
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:jq_toolchain.bzl%jq_platform_repo",
             "attributes": {
               "platform": "windows_amd64",
-              "version": "1.6"
+              "version": "1.7"
             }
           },
           "jq": {
@@ -330,41 +373,71 @@
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:coreutils_toolchain.bzl%coreutils_platform_repo",
             "attributes": {
               "platform": "darwin_amd64",
-              "version": "0.0.16"
+              "version": "0.0.23"
             }
           },
           "coreutils_darwin_arm64": {
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:coreutils_toolchain.bzl%coreutils_platform_repo",
             "attributes": {
               "platform": "darwin_arm64",
-              "version": "0.0.16"
+              "version": "0.0.23"
             }
           },
           "coreutils_linux_amd64": {
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:coreutils_toolchain.bzl%coreutils_platform_repo",
             "attributes": {
               "platform": "linux_amd64",
-              "version": "0.0.16"
+              "version": "0.0.23"
             }
           },
           "coreutils_linux_arm64": {
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:coreutils_toolchain.bzl%coreutils_platform_repo",
             "attributes": {
               "platform": "linux_arm64",
-              "version": "0.0.16"
+              "version": "0.0.23"
             }
           },
           "coreutils_windows_amd64": {
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:coreutils_toolchain.bzl%coreutils_platform_repo",
             "attributes": {
               "platform": "windows_amd64",
-              "version": "0.0.16"
+              "version": "0.0.23"
             }
           },
           "coreutils_toolchains": {
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:coreutils_toolchain.bzl%coreutils_toolchains_repo",
             "attributes": {
               "user_repository_name": "coreutils"
+            }
+          },
+          "bsd_tar_linux_amd64": {
+            "repoRuleId": "@@aspect_bazel_lib+//lib/private:tar_toolchain.bzl%bsdtar_binary_repo",
+            "attributes": {
+              "platform": "linux_amd64"
+            }
+          },
+          "bsd_tar_linux_arm64": {
+            "repoRuleId": "@@aspect_bazel_lib+//lib/private:tar_toolchain.bzl%bsdtar_binary_repo",
+            "attributes": {
+              "platform": "linux_arm64"
+            }
+          },
+          "bsd_tar_windows_amd64": {
+            "repoRuleId": "@@aspect_bazel_lib+//lib/private:tar_toolchain.bzl%bsdtar_binary_repo",
+            "attributes": {
+              "platform": "windows_amd64"
+            }
+          },
+          "bsd_tar_host": {
+            "repoRuleId": "@@aspect_bazel_lib+//lib/private:tar_toolchain.bzl%bsdtar_binary_repo",
+            "attributes": {
+              "platform": "host"
+            }
+          },
+          "bsd_tar_toolchains": {
+            "repoRuleId": "@@aspect_bazel_lib+//lib/private:tar_toolchain.bzl%tar_toolchains_repo",
+            "attributes": {
+              "user_repository_name": "bsd_tar"
             }
           },
           "expand_template_darwin_amd64": {
@@ -377,6 +450,12 @@
             "repoRuleId": "@@aspect_bazel_lib+//lib/private:expand_template_toolchain.bzl%expand_template_platform_repo",
             "attributes": {
               "platform": "darwin_arm64"
+            }
+          },
+          "expand_template_freebsd_amd64": {
+            "repoRuleId": "@@aspect_bazel_lib+//lib/private:expand_template_toolchain.bzl%expand_template_platform_repo",
+            "attributes": {
+              "platform": "freebsd_amd64"
             }
           },
           "expand_template_linux_amd64": {
@@ -402,6 +481,50 @@
             "attributes": {
               "user_repository_name": "expand_template"
             }
+          },
+          "bats_support": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "sha256": "7815237aafeb42ddcc1b8c698fc5808026d33317d8701d5ec2396e9634e2918f",
+              "urls": [
+                "https://github.com/bats-core/bats-support/archive/v0.3.0.tar.gz"
+              ],
+              "strip_prefix": "bats-support-0.3.0",
+              "build_file_content": "load(\"@aspect_bazel_lib//lib:copy_to_directory.bzl\", \"copy_to_directory\")\n\ncopy_to_directory(\n    name = \"support\",\n    hardlink = \"on\",\n    srcs = glob([\n        \"src/**\",\n        \"load.bash\",\n    ]),\n    out = \"bats-support\",\n    visibility = [\"//visibility:public\"]\n)\n"
+            }
+          },
+          "bats_assert": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "sha256": "98ca3b685f8b8993e48ec057565e6e2abcc541034ed5b0e81f191505682037fd",
+              "urls": [
+                "https://github.com/bats-core/bats-assert/archive/v2.1.0.tar.gz"
+              ],
+              "strip_prefix": "bats-assert-2.1.0",
+              "build_file_content": "load(\"@aspect_bazel_lib//lib:copy_to_directory.bzl\", \"copy_to_directory\")\n\ncopy_to_directory(\n    name = \"assert\",\n    hardlink = \"on\",\n    srcs = glob([\n        \"src/**\",\n        \"load.bash\",\n    ]),\n    out = \"bats-assert\",\n    visibility = [\"//visibility:public\"]\n)\n"
+            }
+          },
+          "bats_file": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "sha256": "9b69043241f3af1c2d251f89b4fcafa5df3f05e97b89db18d7c9bdf5731bb27a",
+              "urls": [
+                "https://github.com/bats-core/bats-file/archive/v0.4.0.tar.gz"
+              ],
+              "strip_prefix": "bats-file-0.4.0",
+              "build_file_content": "load(\"@aspect_bazel_lib//lib:copy_to_directory.bzl\", \"copy_to_directory\")\n\ncopy_to_directory(\n    name = \"file\",\n    hardlink = \"on\",\n    srcs = glob([\n        \"src/**\",\n        \"load.bash\",\n    ]),\n    out = \"bats-file\",\n    visibility = [\"//visibility:public\"]\n)\n"
+            }
+          },
+          "bats_toolchains": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "sha256": "a1a9f7875aa4b6a9480ca384d5865f1ccf1b0b1faead6b47aa47d79709a5c5fd",
+              "urls": [
+                "https://github.com/bats-core/bats-core/archive/v1.10.0.tar.gz"
+              ],
+              "strip_prefix": "bats-core-1.10.0",
+              "build_file_content": "load(\"@local_config_platform//:constraints.bzl\", \"HOST_CONSTRAINTS\")\nload(\"@aspect_bazel_lib//lib/private:bats_toolchain.bzl\", \"bats_toolchain\")\nload(\"@aspect_bazel_lib//lib:copy_to_directory.bzl\", \"copy_to_directory\")\n\ncopy_to_directory(\n    name = \"core\",\n    hardlink = \"on\",\n    srcs = glob([\n        \"lib/**\",\n        \"libexec/**\"\n    ]) + [\"bin/bats\"],\n    out = \"bats-core\",\n)\n\nbats_toolchain(\n    name = \"toolchain\",\n    core = \":core\",\n    libraries = [\"@bats_support//:support\", \"@bats_assert//:assert\", \"@bats_file//:file\"]\n)\n\ntoolchain(\n    name = \"bats_toolchain\",\n    exec_compatible_with = HOST_CONSTRAINTS,\n    toolchain = \":toolchain\",\n    toolchain_type = \"@aspect_bazel_lib//lib:bats_toolchain_type\",\n)\n"
+            }
           }
         },
         "recordedRepoMappingEntries": [
@@ -425,10 +548,10 @@
     },
     "@@aspect_rules_js+//npm:extensions.bzl%npm": {
       "general": {
-        "bzlTransitiveDigest": "rSCQtrXvyGARvrFVU6/ljsb3fEUesQ8qP+qXIMUoIhI=",
-        "usagesDigest": "zt5rOG4MaRwaNzWmWmVCoI9D8ESEdckLWY37o+zCY6o=",
+        "bzlTransitiveDigest": "2fzrVmSVj7DTte9yZiHej0U1C5DZpw+mgs1B2xqBtYE=",
+        "usagesDigest": "CAyy8KGAXXQPG9yyP1HUlb/Qbtu3qMmzM1zzbwQbcI0=",
         "recordedFileInputs": {
-          "@@//pnpm-lock.yaml": "b491347ac286209c47f71e4d5e478aa635945a56134625f89885877e3e907a9f"
+          "@@//.npmrc": "71eee0b0f57b87ba7f6b9d77ef23a21a1ca26c521f463ed46d8556051eee559f"
         },
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -438,12 +561,27 @@
             "attributes": {
               "pnpm_lock": "@@//:pnpm-lock.yaml",
               "update_pnpm_lock": false,
+              "npmrc": "@@//:.npmrc",
               "use_home_npmrc": false,
               "patches": {},
               "patch_args": {},
               "custom_postinstalls": {},
+              "package_visibility": {},
               "prod": false,
-              "public_hoist_packages": {},
+              "public_hoist_packages": {
+                "next": [
+                  ""
+                ],
+                "@next/env": [
+                  ""
+                ],
+                "react": [
+                  ""
+                ],
+                "react-dom": [
+                  ""
+                ]
+              },
               "dev": false,
               "no_optional": false,
               "lifecycle_hooks": {
@@ -459,6 +597,10 @@
                   "no-sandbox"
                 ]
               },
+              "lifecycle_hooks_use_default_shell_env": {
+                "*": "false"
+              },
+              "replace_packages": {},
               "bins": {},
               "verify_node_modules_ignored": "@@//:.bazelignore",
               "external_repository_action_cache": ".aspect/rules/external_repository_action_cache",
@@ -467,14 +609,18 @@
               "additional_file_contents": {},
               "repositories_bzl_filename": "repositories.bzl",
               "defs_bzl_filename": "defs.bzl",
-              "generate_bzl_library_targets": true,
+              "generate_bzl_library_targets": false,
               "data": [
-                "@@//:package.json"
+                "@@//:package.json",
+                "@@//apps/web:package.json"
               ],
               "preupdate": [],
               "quiet": true,
-              "update_pnpm_lock_node_toolchain_prefix": "nodejs",
-              "npm_package_target_name": "{dirname}"
+              "node_toolchain_prefix": "nodejs",
+              "yq_toolchain_prefix": "yq",
+              "npm_package_target_name": "{dirname}",
+              "use_starlark_yaml_parser": false,
+              "bzlmod": true
             }
           },
           "npm__at_bazel_ibazel__0.24.0": {
@@ -501,7 +647,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_bazel_ibazel__0.24.0__links": {
@@ -525,8 +671,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_next_env__14.2.26": {
@@ -536,7 +687,11 @@
               "version": "14.2.26",
               "root_package": "",
               "link_workspace": "",
-              "link_packages": {},
+              "link_packages": {
+                "": [
+                  "@next/env"
+                ]
+              },
               "integrity": "sha512-vO//GJ/YBco+H7xdQhzJxF7ub3SUwft76jwaeOyVVQFHCi5DCnkP16WHB+JBylo4vOKPoZBlR94Z8xBxNBdNJA==",
               "url": "https://registry.npmjs.org/@next/env/-/env-14.2.26.tgz",
               "commit": "",
@@ -549,7 +704,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_next_env__14.2.26__links": {
@@ -559,7 +714,11 @@
               "version": "14.2.26",
               "dev": false,
               "root_package": "",
-              "link_packages": {},
+              "link_packages": {
+                "": [
+                  "@next/env"
+                ]
+              },
               "deps": {},
               "transitive_closure": {
                 "@next/env": [
@@ -569,8 +728,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_next_swc-darwin-arm64__14.2.26": {
@@ -593,7 +757,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_next_swc-darwin-arm64__14.2.26__links": {
@@ -613,8 +777,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_next_swc-darwin-x64__14.2.26": {
@@ -637,7 +806,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_next_swc-darwin-x64__14.2.26__links": {
@@ -657,8 +826,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_next_swc-linux-arm64-gnu__14.2.26": {
@@ -681,7 +855,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_next_swc-linux-arm64-gnu__14.2.26__links": {
@@ -701,8 +875,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_next_swc-linux-arm64-musl__14.2.26": {
@@ -725,7 +904,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_next_swc-linux-arm64-musl__14.2.26__links": {
@@ -745,8 +924,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_next_swc-linux-x64-gnu__14.2.26": {
@@ -769,7 +953,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_next_swc-linux-x64-gnu__14.2.26__links": {
@@ -789,8 +973,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_next_swc-linux-x64-musl__14.2.26": {
@@ -813,7 +1002,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_next_swc-linux-x64-musl__14.2.26__links": {
@@ -833,8 +1022,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_next_swc-win32-arm64-msvc__14.2.26": {
@@ -857,7 +1051,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_next_swc-win32-arm64-msvc__14.2.26__links": {
@@ -877,8 +1071,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_next_swc-win32-ia32-msvc__14.2.26": {
@@ -901,7 +1100,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_next_swc-win32-ia32-msvc__14.2.26__links": {
@@ -921,8 +1120,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_next_swc-win32-x64-msvc__14.2.26": {
@@ -945,7 +1149,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_next_swc-win32-x64-msvc__14.2.26__links": {
@@ -965,8 +1169,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_swc_counter__0.1.3": {
@@ -989,7 +1198,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_swc_counter__0.1.3__links": {
@@ -1009,8 +1218,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_swc_helpers__0.5.5": {
@@ -1033,7 +1247,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_swc_helpers__0.5.5__links": {
@@ -1049,11 +1263,11 @@
                 "tslib": "2.8.1"
               },
               "transitive_closure": {
-                "@swc/helpers": [
-                  "0.5.5"
-                ],
                 "@swc/counter": [
                   "0.1.3"
+                ],
+                "@swc/helpers": [
+                  "0.5.5"
                 ],
                 "tslib": [
                   "2.8.1"
@@ -1062,8 +1276,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_types_node__16.18.126": {
@@ -1090,7 +1309,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_types_node__16.18.126__links": {
@@ -1114,8 +1333,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_types_prop-types__15.7.14": {
@@ -1138,7 +1362,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_types_prop-types__15.7.14__links": {
@@ -1158,8 +1382,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_types_react-dom__18.3.5__at_types_react_18.3.20": {
@@ -1186,7 +1415,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_types_react-dom__18.3.5__at_types_react_18.3.20__links": {
@@ -1205,14 +1434,14 @@
                 "@types/react": "18.3.20"
               },
               "transitive_closure": {
-                "@types/react-dom": [
-                  "18.3.5_@types+react@18.3.20"
+                "@types/prop-types": [
+                  "15.7.14"
                 ],
                 "@types/react": [
                   "18.3.20"
                 ],
-                "@types/prop-types": [
-                  "15.7.14"
+                "@types/react-dom": [
+                  "18.3.5_@types+react@18.3.20"
                 ],
                 "csstype": [
                   "3.1.3"
@@ -1221,8 +1450,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_types_react__18.3.20": {
@@ -1249,7 +1483,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_types_react__18.3.20__links": {
@@ -1269,11 +1503,11 @@
                 "csstype": "3.1.3"
               },
               "transitive_closure": {
-                "@types/react": [
-                  "18.3.20"
-                ],
                 "@types/prop-types": [
                   "15.7.14"
+                ],
+                "@types/react": [
+                  "18.3.20"
                 ],
                 "csstype": [
                   "3.1.3"
@@ -1282,8 +1516,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__at_zeit_schemas__2.36.0": {
@@ -1306,7 +1545,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__at_zeit_schemas__2.36.0__links": {
@@ -1326,8 +1565,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__accepts__1.3.8": {
@@ -1350,7 +1594,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__accepts__1.3.8__links": {
@@ -1369,21 +1613,26 @@
                 "accepts": [
                   "1.3.8"
                 ],
+                "mime-db": [
+                  "1.52.0"
+                ],
                 "mime-types": [
                   "2.1.35"
                 ],
                 "negotiator": [
                   "0.6.3"
-                ],
-                "mime-db": [
-                  "1.52.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__ajv__8.12.0": {
@@ -1406,7 +1655,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__ajv__8.12.0__links": {
@@ -1433,21 +1682,26 @@
                 "json-schema-traverse": [
                   "1.0.0"
                 ],
+                "punycode": [
+                  "2.3.1"
+                ],
                 "require-from-string": [
                   "2.0.2"
                 ],
                 "uri-js": [
                   "4.4.1"
-                ],
-                "punycode": [
-                  "2.3.1"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__ansi-align__3.0.1": {
@@ -1470,7 +1724,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__ansi-align__3.0.1__links": {
@@ -1488,8 +1742,8 @@
                 "ansi-align": [
                   "3.0.1"
                 ],
-                "string-width": [
-                  "4.2.3"
+                "ansi-regex": [
+                  "5.0.1"
                 ],
                 "emoji-regex": [
                   "8.0.0"
@@ -1497,18 +1751,23 @@
                 "is-fullwidth-code-point": [
                   "3.0.0"
                 ],
+                "string-width": [
+                  "4.2.3"
+                ],
                 "strip-ansi": [
                   "6.0.1"
-                ],
-                "ansi-regex": [
-                  "5.0.1"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__ansi-regex__5.0.1": {
@@ -1531,7 +1790,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__ansi-regex__5.0.1__links": {
@@ -1551,8 +1810,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__ansi-regex__6.1.0": {
@@ -1575,7 +1839,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__ansi-regex__6.1.0__links": {
@@ -1595,8 +1859,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__ansi-styles__4.3.0": {
@@ -1619,7 +1888,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__ansi-styles__4.3.0__links": {
@@ -1647,8 +1916,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__ansi-styles__6.2.1": {
@@ -1671,7 +1945,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__ansi-styles__6.2.1__links": {
@@ -1691,8 +1965,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__arch__2.2.0": {
@@ -1715,7 +1994,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__arch__2.2.0__links": {
@@ -1735,8 +2014,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__arg__5.0.2": {
@@ -1759,7 +2043,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__arg__5.0.2__links": {
@@ -1779,8 +2063,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__balanced-match__1.0.2": {
@@ -1803,7 +2092,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__balanced-match__1.0.2__links": {
@@ -1823,8 +2112,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__boxen__7.0.0": {
@@ -1847,7 +2141,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__boxen__7.0.0__links": {
@@ -1869,11 +2163,18 @@
                 "wrap-ansi": "8.1.0"
               },
               "transitive_closure": {
-                "boxen": [
-                  "7.0.0"
-                ],
                 "ansi-align": [
                   "3.0.1"
+                ],
+                "ansi-regex": [
+                  "5.0.1",
+                  "6.1.0"
+                ],
+                "ansi-styles": [
+                  "6.2.1"
+                ],
+                "boxen": [
+                  "7.0.0"
                 ],
                 "camelcase": [
                   "7.0.1"
@@ -1884,30 +2185,6 @@
                 "cli-boxes": [
                   "3.0.0"
                 ],
-                "string-width": [
-                  "4.2.3",
-                  "5.1.2"
-                ],
-                "type-fest": [
-                  "2.19.0"
-                ],
-                "widest-line": [
-                  "4.0.1"
-                ],
-                "wrap-ansi": [
-                  "8.1.0"
-                ],
-                "ansi-styles": [
-                  "6.2.1"
-                ],
-                "strip-ansi": [
-                  "6.0.1",
-                  "7.1.0"
-                ],
-                "ansi-regex": [
-                  "5.0.1",
-                  "6.1.0"
-                ],
                 "eastasianwidth": [
                   "0.2.0"
                 ],
@@ -1917,13 +2194,35 @@
                 ],
                 "is-fullwidth-code-point": [
                   "3.0.0"
+                ],
+                "string-width": [
+                  "4.2.3",
+                  "5.1.2"
+                ],
+                "strip-ansi": [
+                  "6.0.1",
+                  "7.1.0"
+                ],
+                "type-fest": [
+                  "2.19.0"
+                ],
+                "widest-line": [
+                  "4.0.1"
+                ],
+                "wrap-ansi": [
+                  "8.1.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__brace-expansion__1.1.11": {
@@ -1946,7 +2245,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__brace-expansion__1.1.11__links": {
@@ -1962,11 +2261,11 @@
                 "concat-map": "0.0.1"
               },
               "transitive_closure": {
-                "brace-expansion": [
-                  "1.1.11"
-                ],
                 "balanced-match": [
                   "1.0.2"
+                ],
+                "brace-expansion": [
+                  "1.1.11"
                 ],
                 "concat-map": [
                   "0.0.1"
@@ -1975,8 +2274,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__busboy__1.6.0": {
@@ -1999,7 +2303,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__busboy__1.6.0__links": {
@@ -2024,8 +2328,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__bytes__3.0.0": {
@@ -2048,7 +2357,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__bytes__3.0.0__links": {
@@ -2068,8 +2377,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__camelcase__7.0.1": {
@@ -2092,7 +2406,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__camelcase__7.0.1__links": {
@@ -2112,8 +2426,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__caniuse-lite__1.0.30001707": {
@@ -2136,7 +2455,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__caniuse-lite__1.0.30001707__links": {
@@ -2156,8 +2475,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__chalk-template__0.4.0": {
@@ -2180,7 +2504,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__chalk-template__0.4.0__links": {
@@ -2195,33 +2519,38 @@
                 "chalk": "4.1.2"
               },
               "transitive_closure": {
-                "chalk-template": [
-                  "0.4.0"
+                "ansi-styles": [
+                  "4.3.0"
                 ],
                 "chalk": [
                   "4.1.2"
                 ],
-                "ansi-styles": [
-                  "4.3.0"
-                ],
-                "supports-color": [
-                  "7.2.0"
-                ],
-                "has-flag": [
-                  "4.0.0"
+                "chalk-template": [
+                  "0.4.0"
                 ],
                 "color-convert": [
                   "2.0.1"
                 ],
                 "color-name": [
                   "1.1.4"
+                ],
+                "has-flag": [
+                  "4.0.0"
+                ],
+                "supports-color": [
+                  "7.2.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__chalk__4.1.2": {
@@ -2244,7 +2573,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__chalk__4.1.2__links": {
@@ -2260,30 +2589,35 @@
                 "supports-color": "7.2.0"
               },
               "transitive_closure": {
-                "chalk": [
-                  "4.1.2"
-                ],
                 "ansi-styles": [
                   "4.3.0"
                 ],
-                "supports-color": [
-                  "7.2.0"
-                ],
-                "has-flag": [
-                  "4.0.0"
+                "chalk": [
+                  "4.1.2"
                 ],
                 "color-convert": [
                   "2.0.1"
                 ],
                 "color-name": [
                   "1.1.4"
+                ],
+                "has-flag": [
+                  "4.0.0"
+                ],
+                "supports-color": [
+                  "7.2.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__chalk__5.0.1": {
@@ -2306,7 +2640,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__chalk__5.0.1__links": {
@@ -2326,8 +2660,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__cli-boxes__3.0.0": {
@@ -2350,7 +2689,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__cli-boxes__3.0.0__links": {
@@ -2370,8 +2709,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__client-only__0.0.1": {
@@ -2394,7 +2738,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__client-only__0.0.1__links": {
@@ -2414,8 +2758,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__clipboardy__3.0.0": {
@@ -2438,7 +2787,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__clipboardy__3.0.0__links": {
@@ -2455,23 +2804,17 @@
                 "is-wsl": "2.2.0"
               },
               "transitive_closure": {
-                "clipboardy": [
-                  "3.0.0"
-                ],
                 "arch": [
                   "2.2.0"
                 ],
-                "execa": [
-                  "5.1.1"
-                ],
-                "is-wsl": [
-                  "2.2.0"
-                ],
-                "is-docker": [
-                  "2.2.1"
+                "clipboardy": [
+                  "3.0.0"
                 ],
                 "cross-spawn": [
                   "7.0.6"
+                ],
+                "execa": [
+                  "5.1.1"
                 ],
                 "get-stream": [
                   "6.0.1"
@@ -2479,11 +2822,23 @@
                 "human-signals": [
                   "2.1.0"
                 ],
+                "is-docker": [
+                  "2.2.1"
+                ],
                 "is-stream": [
                   "2.0.1"
                 ],
+                "is-wsl": [
+                  "2.2.0"
+                ],
+                "isexe": [
+                  "2.0.0"
+                ],
                 "merge-stream": [
                   "2.0.0"
+                ],
+                "mimic-fn": [
+                  "2.1.0"
                 ],
                 "npm-run-path": [
                   "4.0.1"
@@ -2491,36 +2846,35 @@
                 "onetime": [
                   "5.1.2"
                 ],
-                "signal-exit": [
-                  "3.0.7"
-                ],
-                "strip-final-newline": [
-                  "2.0.0"
-                ],
-                "mimic-fn": [
-                  "2.1.0"
-                ],
                 "path-key": [
                   "3.1.1"
                 ],
                 "shebang-command": [
                   "2.0.0"
                 ],
-                "which": [
-                  "2.0.2"
-                ],
-                "isexe": [
-                  "2.0.0"
-                ],
                 "shebang-regex": [
                   "3.0.0"
+                ],
+                "signal-exit": [
+                  "3.0.7"
+                ],
+                "strip-final-newline": [
+                  "2.0.0"
+                ],
+                "which": [
+                  "2.0.2"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__color-convert__2.0.1": {
@@ -2543,7 +2897,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__color-convert__2.0.1__links": {
@@ -2568,8 +2922,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__color-name__1.1.4": {
@@ -2592,7 +2951,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__color-name__1.1.4__links": {
@@ -2612,8 +2971,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__compressible__2.0.18": {
@@ -2636,7 +3000,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__compressible__2.0.18__links": {
@@ -2661,8 +3025,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__compression__1.7.4": {
@@ -2685,7 +3054,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__compression__1.7.4__links": {
@@ -2706,9 +3075,6 @@
                 "vary": "1.1.2"
               },
               "transitive_closure": {
-                "compression": [
-                  "1.7.4"
-                ],
                 "accepts": [
                   "1.3.8"
                 ],
@@ -2718,8 +3084,24 @@
                 "compressible": [
                   "2.0.18"
                 ],
+                "compression": [
+                  "1.7.4"
+                ],
                 "debug": [
                   "2.6.9"
+                ],
+                "mime-db": [
+                  "1.52.0",
+                  "1.54.0"
+                ],
+                "mime-types": [
+                  "2.1.35"
+                ],
+                "ms": [
+                  "2.0.0"
+                ],
+                "negotiator": [
+                  "0.6.3"
                 ],
                 "on-headers": [
                   "1.0.2"
@@ -2729,26 +3111,18 @@
                 ],
                 "vary": [
                   "1.1.2"
-                ],
-                "ms": [
-                  "2.0.0"
-                ],
-                "mime-db": [
-                  "1.52.0",
-                  "1.54.0"
-                ],
-                "mime-types": [
-                  "2.1.35"
-                ],
-                "negotiator": [
-                  "0.6.3"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__concat-map__0.0.1": {
@@ -2771,7 +3145,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__concat-map__0.0.1__links": {
@@ -2791,8 +3165,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__content-disposition__0.5.2": {
@@ -2815,7 +3194,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__content-disposition__0.5.2__links": {
@@ -2835,8 +3214,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__cross-spawn__7.0.6": {
@@ -2859,7 +3243,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__cross-spawn__7.0.6__links": {
@@ -2879,27 +3263,32 @@
                 "cross-spawn": [
                   "7.0.6"
                 ],
+                "isexe": [
+                  "2.0.0"
+                ],
                 "path-key": [
                   "3.1.1"
                 ],
                 "shebang-command": [
                   "2.0.0"
                 ],
-                "which": [
-                  "2.0.2"
-                ],
-                "isexe": [
-                  "2.0.0"
-                ],
                 "shebang-regex": [
                   "3.0.0"
+                ],
+                "which": [
+                  "2.0.2"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__csstype__3.1.3": {
@@ -2922,7 +3311,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__csstype__3.1.3__links": {
@@ -2942,8 +3331,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__debug__2.6.9": {
@@ -2966,7 +3360,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__debug__2.6.9__links": {
@@ -2991,8 +3385,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__deep-extend__0.6.0": {
@@ -3015,7 +3414,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__deep-extend__0.6.0__links": {
@@ -3035,8 +3434,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__eastasianwidth__0.2.0": {
@@ -3059,7 +3463,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__eastasianwidth__0.2.0__links": {
@@ -3079,8 +3483,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__emoji-regex__8.0.0": {
@@ -3103,7 +3512,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__emoji-regex__8.0.0__links": {
@@ -3123,8 +3532,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__emoji-regex__9.2.2": {
@@ -3147,7 +3561,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__emoji-regex__9.2.2__links": {
@@ -3167,8 +3581,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__execa__5.1.1": {
@@ -3191,7 +3610,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__execa__5.1.1__links": {
@@ -3214,11 +3633,11 @@
                 "strip-final-newline": "2.0.0"
               },
               "transitive_closure": {
-                "execa": [
-                  "5.1.1"
-                ],
                 "cross-spawn": [
                   "7.0.6"
+                ],
+                "execa": [
+                  "5.1.1"
                 ],
                 "get-stream": [
                   "6.0.1"
@@ -3229,8 +3648,14 @@
                 "is-stream": [
                   "2.0.1"
                 ],
+                "isexe": [
+                  "2.0.0"
+                ],
                 "merge-stream": [
                   "2.0.0"
+                ],
+                "mimic-fn": [
+                  "2.1.0"
                 ],
                 "npm-run-path": [
                   "4.0.1"
@@ -3238,36 +3663,35 @@
                 "onetime": [
                   "5.1.2"
                 ],
-                "signal-exit": [
-                  "3.0.7"
-                ],
-                "strip-final-newline": [
-                  "2.0.0"
-                ],
-                "mimic-fn": [
-                  "2.1.0"
-                ],
                 "path-key": [
                   "3.1.1"
                 ],
                 "shebang-command": [
                   "2.0.0"
                 ],
-                "which": [
-                  "2.0.2"
-                ],
-                "isexe": [
-                  "2.0.0"
-                ],
                 "shebang-regex": [
                   "3.0.0"
+                ],
+                "signal-exit": [
+                  "3.0.7"
+                ],
+                "strip-final-newline": [
+                  "2.0.0"
+                ],
+                "which": [
+                  "2.0.2"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__fast-deep-equal__3.1.3": {
@@ -3290,7 +3714,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__fast-deep-equal__3.1.3__links": {
@@ -3310,8 +3734,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__get-stream__6.0.1": {
@@ -3334,7 +3763,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__get-stream__6.0.1__links": {
@@ -3354,8 +3783,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__graceful-fs__4.2.11": {
@@ -3378,7 +3812,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__graceful-fs__4.2.11__links": {
@@ -3398,8 +3832,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__has-flag__4.0.0": {
@@ -3422,7 +3861,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__has-flag__4.0.0__links": {
@@ -3442,8 +3881,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__human-signals__2.1.0": {
@@ -3466,7 +3910,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__human-signals__2.1.0__links": {
@@ -3486,8 +3930,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__ini__1.3.8": {
@@ -3510,7 +3959,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__ini__1.3.8__links": {
@@ -3530,8 +3979,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__is-docker__2.2.1": {
@@ -3554,7 +4008,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__is-docker__2.2.1__links": {
@@ -3574,8 +4028,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__is-fullwidth-code-point__3.0.0": {
@@ -3598,7 +4057,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__is-fullwidth-code-point__3.0.0__links": {
@@ -3618,8 +4077,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__is-port-reachable__4.0.0": {
@@ -3642,7 +4106,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__is-port-reachable__4.0.0__links": {
@@ -3662,8 +4126,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__is-stream__2.0.1": {
@@ -3686,7 +4155,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__is-stream__2.0.1__links": {
@@ -3706,8 +4175,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__is-wsl__2.2.0": {
@@ -3730,7 +4204,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__is-wsl__2.2.0__links": {
@@ -3745,18 +4219,23 @@
                 "is-docker": "2.2.1"
               },
               "transitive_closure": {
-                "is-wsl": [
-                  "2.2.0"
-                ],
                 "is-docker": [
                   "2.2.1"
+                ],
+                "is-wsl": [
+                  "2.2.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__isexe__2.0.0": {
@@ -3779,7 +4258,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__isexe__2.0.0__links": {
@@ -3799,8 +4278,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__js-tokens__4.0.0": {
@@ -3823,7 +4307,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__js-tokens__4.0.0__links": {
@@ -3843,8 +4327,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__json-schema-traverse__1.0.0": {
@@ -3867,7 +4356,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__json-schema-traverse__1.0.0__links": {
@@ -3887,8 +4376,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__loose-envify__1.4.0": {
@@ -3911,7 +4405,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__loose-envify__1.4.0__links": {
@@ -3926,18 +4420,23 @@
                 "js-tokens": "4.0.0"
               },
               "transitive_closure": {
-                "loose-envify": [
-                  "1.4.0"
-                ],
                 "js-tokens": [
                   "4.0.0"
+                ],
+                "loose-envify": [
+                  "1.4.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__merge-stream__2.0.0": {
@@ -3960,7 +4459,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__merge-stream__2.0.0__links": {
@@ -3980,8 +4479,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__mime-db__1.33.0": {
@@ -4004,7 +4508,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__mime-db__1.33.0__links": {
@@ -4024,8 +4528,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__mime-db__1.52.0": {
@@ -4048,7 +4557,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__mime-db__1.52.0__links": {
@@ -4068,8 +4577,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__mime-db__1.54.0": {
@@ -4092,7 +4606,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__mime-db__1.54.0__links": {
@@ -4112,8 +4626,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__mime-types__2.1.18": {
@@ -4136,7 +4655,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__mime-types__2.1.18__links": {
@@ -4151,18 +4670,23 @@
                 "mime-db": "1.33.0"
               },
               "transitive_closure": {
-                "mime-types": [
-                  "2.1.18"
-                ],
                 "mime-db": [
                   "1.33.0"
+                ],
+                "mime-types": [
+                  "2.1.18"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__mime-types__2.1.35": {
@@ -4185,7 +4709,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__mime-types__2.1.35__links": {
@@ -4200,18 +4724,23 @@
                 "mime-db": "1.52.0"
               },
               "transitive_closure": {
-                "mime-types": [
-                  "2.1.35"
-                ],
                 "mime-db": [
                   "1.52.0"
+                ],
+                "mime-types": [
+                  "2.1.35"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__mimic-fn__2.1.0": {
@@ -4234,7 +4763,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__mimic-fn__2.1.0__links": {
@@ -4254,8 +4783,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__minimatch__3.1.2": {
@@ -4278,7 +4812,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__minimatch__3.1.2__links": {
@@ -4293,24 +4827,29 @@
                 "brace-expansion": "1.1.11"
               },
               "transitive_closure": {
-                "minimatch": [
-                  "3.1.2"
+                "balanced-match": [
+                  "1.0.2"
                 ],
                 "brace-expansion": [
                   "1.1.11"
                 ],
-                "balanced-match": [
-                  "1.0.2"
-                ],
                 "concat-map": [
                   "0.0.1"
+                ],
+                "minimatch": [
+                  "3.1.2"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__minimist__1.2.8": {
@@ -4333,7 +4872,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__minimist__1.2.8__links": {
@@ -4353,8 +4892,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__ms__2.0.0": {
@@ -4377,7 +4921,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__ms__2.0.0__links": {
@@ -4397,8 +4941,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__nanoid__3.3.11": {
@@ -4421,7 +4970,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__nanoid__3.3.11__links": {
@@ -4441,8 +4990,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__negotiator__0.6.3": {
@@ -4465,7 +5019,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__negotiator__0.6.3__links": {
@@ -4485,8 +5039,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__next__14.2.26__react-dom_18.3.1_react_18.3.1": {
@@ -4513,7 +5072,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__next__14.2.26__react-dom_18.3.1_react_18.3.1__links": {
@@ -4549,35 +5108,8 @@
                 "styled-jsx": "5.1.1_react@18.3.1"
               },
               "transitive_closure": {
-                "next": [
-                  "14.2.26_react-dom@18.3.1+react@18.3.1"
-                ],
                 "@next/env": [
                   "14.2.26"
-                ],
-                "@swc/helpers": [
-                  "0.5.5"
-                ],
-                "busboy": [
-                  "1.6.0"
-                ],
-                "caniuse-lite": [
-                  "1.0.30001707"
-                ],
-                "graceful-fs": [
-                  "4.2.11"
-                ],
-                "postcss": [
-                  "8.4.31"
-                ],
-                "react": [
-                  "18.3.1"
-                ],
-                "react-dom": [
-                  "18.3.1_react@18.3.1"
-                ],
-                "styled-jsx": [
-                  "5.1.1_react@18.3.1"
                 ],
                 "@next/swc-darwin-arm64": [
                   "14.2.26"
@@ -4606,23 +5138,50 @@
                 "@next/swc-win32-x64-msvc": [
                   "14.2.26"
                 ],
+                "@swc/counter": [
+                  "0.1.3"
+                ],
+                "@swc/helpers": [
+                  "0.5.5"
+                ],
+                "busboy": [
+                  "1.6.0"
+                ],
+                "caniuse-lite": [
+                  "1.0.30001707"
+                ],
                 "client-only": [
                   "0.0.1"
                 ],
-                "loose-envify": [
-                  "1.4.0"
-                ],
-                "scheduler": [
-                  "0.23.2"
+                "graceful-fs": [
+                  "4.2.11"
                 ],
                 "js-tokens": [
                   "4.0.0"
                 ],
+                "loose-envify": [
+                  "1.4.0"
+                ],
                 "nanoid": [
                   "3.3.11"
                 ],
+                "next": [
+                  "14.2.26_react-dom@18.3.1+react@18.3.1"
+                ],
                 "picocolors": [
                   "1.1.1"
+                ],
+                "postcss": [
+                  "8.4.31"
+                ],
+                "react": [
+                  "18.3.1"
+                ],
+                "react-dom": [
+                  "18.3.1_react@18.3.1"
+                ],
+                "scheduler": [
+                  "0.23.2"
                 ],
                 "source-map-js": [
                   "1.2.1"
@@ -4630,8 +5189,8 @@
                 "streamsearch": [
                   "1.1.0"
                 ],
-                "@swc/counter": [
-                  "0.1.3"
+                "styled-jsx": [
+                  "5.1.1_react@18.3.1"
                 ],
                 "tslib": [
                   "2.8.1"
@@ -4640,8 +5199,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__npm-run-path__4.0.1": {
@@ -4664,7 +5228,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__npm-run-path__4.0.1__links": {
@@ -4689,8 +5253,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__on-headers__1.0.2": {
@@ -4713,7 +5282,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__on-headers__1.0.2__links": {
@@ -4733,8 +5302,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__onetime__5.1.2": {
@@ -4757,7 +5331,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__onetime__5.1.2__links": {
@@ -4772,18 +5346,23 @@
                 "mimic-fn": "2.1.0"
               },
               "transitive_closure": {
-                "onetime": [
-                  "5.1.2"
-                ],
                 "mimic-fn": [
                   "2.1.0"
+                ],
+                "onetime": [
+                  "5.1.2"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__path-is-inside__1.0.2": {
@@ -4806,7 +5385,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__path-is-inside__1.0.2__links": {
@@ -4826,8 +5405,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__path-key__3.1.1": {
@@ -4850,7 +5434,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__path-key__3.1.1__links": {
@@ -4870,8 +5454,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__path-to-regexp__3.3.0": {
@@ -4894,7 +5483,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__path-to-regexp__3.3.0__links": {
@@ -4914,8 +5503,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__picocolors__1.1.1": {
@@ -4938,7 +5532,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__picocolors__1.1.1__links": {
@@ -4958,8 +5552,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__postcss__8.4.31": {
@@ -4982,7 +5581,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__postcss__8.4.31__links": {
@@ -4999,14 +5598,14 @@
                 "source-map-js": "1.2.1"
               },
               "transitive_closure": {
-                "postcss": [
-                  "8.4.31"
-                ],
                 "nanoid": [
                   "3.3.11"
                 ],
                 "picocolors": [
                   "1.1.1"
+                ],
+                "postcss": [
+                  "8.4.31"
                 ],
                 "source-map-js": [
                   "1.2.1"
@@ -5015,8 +5614,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__punycode__2.3.1": {
@@ -5039,7 +5643,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__punycode__2.3.1__links": {
@@ -5059,8 +5663,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__range-parser__1.2.0": {
@@ -5083,7 +5692,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__range-parser__1.2.0__links": {
@@ -5103,8 +5712,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__rc__1.2.8": {
@@ -5127,7 +5741,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__rc__1.2.8__links": {
@@ -5145,9 +5759,6 @@
                 "strip-json-comments": "2.0.1"
               },
               "transitive_closure": {
-                "rc": [
-                  "1.2.8"
-                ],
                 "deep-extend": [
                   "0.6.0"
                 ],
@@ -5157,6 +5768,9 @@
                 "minimist": [
                   "1.2.8"
                 ],
+                "rc": [
+                  "1.2.8"
+                ],
                 "strip-json-comments": [
                   "2.0.1"
                 ]
@@ -5164,8 +5778,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__react-dom__18.3.1__react_18.3.1": {
@@ -5192,7 +5811,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__react-dom__18.3.1__react_18.3.1__links": {
@@ -5213,8 +5832,8 @@
                 "scheduler": "0.23.2"
               },
               "transitive_closure": {
-                "react-dom": [
-                  "18.3.1_react@18.3.1"
+                "js-tokens": [
+                  "4.0.0"
                 ],
                 "loose-envify": [
                   "1.4.0"
@@ -5222,18 +5841,23 @@
                 "react": [
                   "18.3.1"
                 ],
+                "react-dom": [
+                  "18.3.1_react@18.3.1"
+                ],
                 "scheduler": [
                   "0.23.2"
-                ],
-                "js-tokens": [
-                  "4.0.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__react__18.3.1": {
@@ -5260,7 +5884,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__react__18.3.1__links": {
@@ -5279,21 +5903,26 @@
                 "loose-envify": "1.4.0"
               },
               "transitive_closure": {
-                "react": [
-                  "18.3.1"
+                "js-tokens": [
+                  "4.0.0"
                 ],
                 "loose-envify": [
                   "1.4.0"
                 ],
-                "js-tokens": [
-                  "4.0.0"
+                "react": [
+                  "18.3.1"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__registry-auth-token__3.3.2": {
@@ -5316,7 +5945,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__registry-auth-token__3.3.2__links": {
@@ -5332,15 +5961,6 @@
                 "safe-buffer": "5.2.1"
               },
               "transitive_closure": {
-                "registry-auth-token": [
-                  "3.3.2"
-                ],
-                "rc": [
-                  "1.2.8"
-                ],
-                "safe-buffer": [
-                  "5.2.1"
-                ],
                 "deep-extend": [
                   "0.6.0"
                 ],
@@ -5350,6 +5970,15 @@
                 "minimist": [
                   "1.2.8"
                 ],
+                "rc": [
+                  "1.2.8"
+                ],
+                "registry-auth-token": [
+                  "3.3.2"
+                ],
+                "safe-buffer": [
+                  "5.2.1"
+                ],
                 "strip-json-comments": [
                   "2.0.1"
                 ]
@@ -5357,8 +5986,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__registry-url__3.1.0": {
@@ -5381,7 +6015,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__registry-url__3.1.0__links": {
@@ -5396,12 +6030,6 @@
                 "rc": "1.2.8"
               },
               "transitive_closure": {
-                "registry-url": [
-                  "3.1.0"
-                ],
-                "rc": [
-                  "1.2.8"
-                ],
                 "deep-extend": [
                   "0.6.0"
                 ],
@@ -5411,6 +6039,12 @@
                 "minimist": [
                   "1.2.8"
                 ],
+                "rc": [
+                  "1.2.8"
+                ],
+                "registry-url": [
+                  "3.1.0"
+                ],
                 "strip-json-comments": [
                   "2.0.1"
                 ]
@@ -5418,8 +6052,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__require-from-string__2.0.2": {
@@ -5442,7 +6081,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__require-from-string__2.0.2__links": {
@@ -5462,8 +6101,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__safe-buffer__5.1.2": {
@@ -5486,7 +6130,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__safe-buffer__5.1.2__links": {
@@ -5506,8 +6150,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__safe-buffer__5.2.1": {
@@ -5530,7 +6179,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__safe-buffer__5.2.1__links": {
@@ -5550,8 +6199,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__scheduler__0.23.2": {
@@ -5574,7 +6228,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__scheduler__0.23.2__links": {
@@ -5589,21 +6243,26 @@
                 "loose-envify": "1.4.0"
               },
               "transitive_closure": {
-                "scheduler": [
-                  "0.23.2"
+                "js-tokens": [
+                  "4.0.0"
                 ],
                 "loose-envify": [
                   "1.4.0"
                 ],
-                "js-tokens": [
-                  "4.0.0"
+                "scheduler": [
+                  "0.23.2"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__serve-handler__6.1.6": {
@@ -5626,7 +6285,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__serve-handler__6.1.6__links": {
@@ -5647,14 +6306,23 @@
                 "range-parser": "1.2.0"
               },
               "transitive_closure": {
-                "serve-handler": [
-                  "6.1.6"
+                "balanced-match": [
+                  "1.0.2"
+                ],
+                "brace-expansion": [
+                  "1.1.11"
                 ],
                 "bytes": [
                   "3.0.0"
                 ],
+                "concat-map": [
+                  "0.0.1"
+                ],
                 "content-disposition": [
                   "0.5.2"
+                ],
+                "mime-db": [
+                  "1.33.0"
                 ],
                 "mime-types": [
                   "2.1.18"
@@ -5671,24 +6339,20 @@
                 "range-parser": [
                   "1.2.0"
                 ],
-                "brace-expansion": [
-                  "1.1.11"
-                ],
-                "balanced-match": [
-                  "1.0.2"
-                ],
-                "concat-map": [
-                  "0.0.1"
-                ],
-                "mime-db": [
-                  "1.33.0"
+                "serve-handler": [
+                  "6.1.6"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__serve__14.2.4": {
@@ -5715,7 +6379,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__serve__14.2.4__links": {
@@ -5744,20 +6408,46 @@
                 "update-check": "1.5.4"
               },
               "transitive_closure": {
-                "serve": [
-                  "14.2.4"
-                ],
                 "@zeit/schemas": [
                   "2.36.0"
+                ],
+                "accepts": [
+                  "1.3.8"
                 ],
                 "ajv": [
                   "8.12.0"
                 ],
+                "ansi-align": [
+                  "3.0.1"
+                ],
+                "ansi-regex": [
+                  "5.0.1",
+                  "6.1.0"
+                ],
+                "ansi-styles": [
+                  "4.3.0",
+                  "6.2.1"
+                ],
+                "arch": [
+                  "2.2.0"
+                ],
                 "arg": [
                   "5.0.2"
                 ],
+                "balanced-match": [
+                  "1.0.2"
+                ],
                 "boxen": [
                   "7.0.0"
+                ],
+                "brace-expansion": [
+                  "1.1.11"
+                ],
+                "bytes": [
+                  "3.0.0"
+                ],
+                "camelcase": [
+                  "7.0.1"
                 ],
                 "chalk": [
                   "4.1.2",
@@ -5766,169 +6456,11 @@
                 "chalk-template": [
                   "0.4.0"
                 ],
+                "cli-boxes": [
+                  "3.0.0"
+                ],
                 "clipboardy": [
                   "3.0.0"
-                ],
-                "compression": [
-                  "1.7.4"
-                ],
-                "is-port-reachable": [
-                  "4.0.0"
-                ],
-                "serve-handler": [
-                  "6.1.6"
-                ],
-                "update-check": [
-                  "1.5.4"
-                ],
-                "registry-auth-token": [
-                  "3.3.2"
-                ],
-                "registry-url": [
-                  "3.1.0"
-                ],
-                "rc": [
-                  "1.2.8"
-                ],
-                "deep-extend": [
-                  "0.6.0"
-                ],
-                "ini": [
-                  "1.3.8"
-                ],
-                "minimist": [
-                  "1.2.8"
-                ],
-                "strip-json-comments": [
-                  "2.0.1"
-                ],
-                "safe-buffer": [
-                  "5.1.2",
-                  "5.2.1"
-                ],
-                "bytes": [
-                  "3.0.0"
-                ],
-                "content-disposition": [
-                  "0.5.2"
-                ],
-                "mime-types": [
-                  "2.1.35",
-                  "2.1.18"
-                ],
-                "minimatch": [
-                  "3.1.2"
-                ],
-                "path-is-inside": [
-                  "1.0.2"
-                ],
-                "path-to-regexp": [
-                  "3.3.0"
-                ],
-                "range-parser": [
-                  "1.2.0"
-                ],
-                "brace-expansion": [
-                  "1.1.11"
-                ],
-                "balanced-match": [
-                  "1.0.2"
-                ],
-                "concat-map": [
-                  "0.0.1"
-                ],
-                "mime-db": [
-                  "1.52.0",
-                  "1.54.0",
-                  "1.33.0"
-                ],
-                "accepts": [
-                  "1.3.8"
-                ],
-                "compressible": [
-                  "2.0.18"
-                ],
-                "debug": [
-                  "2.6.9"
-                ],
-                "on-headers": [
-                  "1.0.2"
-                ],
-                "vary": [
-                  "1.1.2"
-                ],
-                "ms": [
-                  "2.0.0"
-                ],
-                "negotiator": [
-                  "0.6.3"
-                ],
-                "arch": [
-                  "2.2.0"
-                ],
-                "execa": [
-                  "5.1.1"
-                ],
-                "is-wsl": [
-                  "2.2.0"
-                ],
-                "is-docker": [
-                  "2.2.1"
-                ],
-                "cross-spawn": [
-                  "7.0.6"
-                ],
-                "get-stream": [
-                  "6.0.1"
-                ],
-                "human-signals": [
-                  "2.1.0"
-                ],
-                "is-stream": [
-                  "2.0.1"
-                ],
-                "merge-stream": [
-                  "2.0.0"
-                ],
-                "npm-run-path": [
-                  "4.0.1"
-                ],
-                "onetime": [
-                  "5.1.2"
-                ],
-                "signal-exit": [
-                  "3.0.7"
-                ],
-                "strip-final-newline": [
-                  "2.0.0"
-                ],
-                "mimic-fn": [
-                  "2.1.0"
-                ],
-                "path-key": [
-                  "3.1.1"
-                ],
-                "shebang-command": [
-                  "2.0.0"
-                ],
-                "which": [
-                  "2.0.2"
-                ],
-                "isexe": [
-                  "2.0.0"
-                ],
-                "shebang-regex": [
-                  "3.0.0"
-                ],
-                "ansi-styles": [
-                  "6.2.1",
-                  "4.3.0"
-                ],
-                "supports-color": [
-                  "7.2.0"
-                ],
-                "has-flag": [
-                  "4.0.0"
                 ],
                 "color-convert": [
                   "2.0.1"
@@ -5936,35 +6468,26 @@
                 "color-name": [
                   "1.1.4"
                 ],
-                "ansi-align": [
-                  "3.0.1"
+                "compressible": [
+                  "2.0.18"
                 ],
-                "camelcase": [
-                  "7.0.1"
+                "compression": [
+                  "1.7.4"
                 ],
-                "cli-boxes": [
-                  "3.0.0"
+                "concat-map": [
+                  "0.0.1"
                 ],
-                "string-width": [
-                  "4.2.3",
-                  "5.1.2"
+                "content-disposition": [
+                  "0.5.2"
                 ],
-                "type-fest": [
-                  "2.19.0"
+                "cross-spawn": [
+                  "7.0.6"
                 ],
-                "widest-line": [
-                  "4.0.1"
+                "debug": [
+                  "2.6.9"
                 ],
-                "wrap-ansi": [
-                  "8.1.0"
-                ],
-                "strip-ansi": [
-                  "6.0.1",
-                  "7.1.0"
-                ],
-                "ansi-regex": [
-                  "5.0.1",
-                  "6.1.0"
+                "deep-extend": [
+                  "0.6.0"
                 ],
                 "eastasianwidth": [
                   "0.2.0"
@@ -5973,30 +6496,176 @@
                   "8.0.0",
                   "9.2.2"
                 ],
-                "is-fullwidth-code-point": [
-                  "3.0.0"
+                "execa": [
+                  "5.1.1"
                 ],
                 "fast-deep-equal": [
                   "3.1.3"
                 ],
+                "get-stream": [
+                  "6.0.1"
+                ],
+                "has-flag": [
+                  "4.0.0"
+                ],
+                "human-signals": [
+                  "2.1.0"
+                ],
+                "ini": [
+                  "1.3.8"
+                ],
+                "is-docker": [
+                  "2.2.1"
+                ],
+                "is-fullwidth-code-point": [
+                  "3.0.0"
+                ],
+                "is-port-reachable": [
+                  "4.0.0"
+                ],
+                "is-stream": [
+                  "2.0.1"
+                ],
+                "is-wsl": [
+                  "2.2.0"
+                ],
+                "isexe": [
+                  "2.0.0"
+                ],
                 "json-schema-traverse": [
                   "1.0.0"
+                ],
+                "merge-stream": [
+                  "2.0.0"
+                ],
+                "mime-db": [
+                  "1.33.0",
+                  "1.52.0",
+                  "1.54.0"
+                ],
+                "mime-types": [
+                  "2.1.18",
+                  "2.1.35"
+                ],
+                "mimic-fn": [
+                  "2.1.0"
+                ],
+                "minimatch": [
+                  "3.1.2"
+                ],
+                "minimist": [
+                  "1.2.8"
+                ],
+                "ms": [
+                  "2.0.0"
+                ],
+                "negotiator": [
+                  "0.6.3"
+                ],
+                "npm-run-path": [
+                  "4.0.1"
+                ],
+                "on-headers": [
+                  "1.0.2"
+                ],
+                "onetime": [
+                  "5.1.2"
+                ],
+                "path-is-inside": [
+                  "1.0.2"
+                ],
+                "path-key": [
+                  "3.1.1"
+                ],
+                "path-to-regexp": [
+                  "3.3.0"
+                ],
+                "punycode": [
+                  "2.3.1"
+                ],
+                "range-parser": [
+                  "1.2.0"
+                ],
+                "rc": [
+                  "1.2.8"
+                ],
+                "registry-auth-token": [
+                  "3.3.2"
+                ],
+                "registry-url": [
+                  "3.1.0"
                 ],
                 "require-from-string": [
                   "2.0.2"
                 ],
+                "safe-buffer": [
+                  "5.1.2",
+                  "5.2.1"
+                ],
+                "serve": [
+                  "14.2.4"
+                ],
+                "serve-handler": [
+                  "6.1.6"
+                ],
+                "shebang-command": [
+                  "2.0.0"
+                ],
+                "shebang-regex": [
+                  "3.0.0"
+                ],
+                "signal-exit": [
+                  "3.0.7"
+                ],
+                "string-width": [
+                  "4.2.3",
+                  "5.1.2"
+                ],
+                "strip-ansi": [
+                  "6.0.1",
+                  "7.1.0"
+                ],
+                "strip-final-newline": [
+                  "2.0.0"
+                ],
+                "strip-json-comments": [
+                  "2.0.1"
+                ],
+                "supports-color": [
+                  "7.2.0"
+                ],
+                "type-fest": [
+                  "2.19.0"
+                ],
+                "update-check": [
+                  "1.5.4"
+                ],
                 "uri-js": [
                   "4.4.1"
                 ],
-                "punycode": [
-                  "2.3.1"
+                "vary": [
+                  "1.1.2"
+                ],
+                "which": [
+                  "2.0.2"
+                ],
+                "widest-line": [
+                  "4.0.1"
+                ],
+                "wrap-ansi": [
+                  "8.1.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__shebang-command__2.0.0": {
@@ -6019,7 +6688,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__shebang-command__2.0.0__links": {
@@ -6044,8 +6713,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__shebang-regex__3.0.0": {
@@ -6068,7 +6742,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__shebang-regex__3.0.0__links": {
@@ -6088,8 +6762,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__signal-exit__3.0.7": {
@@ -6112,7 +6791,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__signal-exit__3.0.7__links": {
@@ -6132,8 +6811,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__source-map-js__1.2.1": {
@@ -6156,7 +6840,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__source-map-js__1.2.1__links": {
@@ -6176,8 +6860,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__streamsearch__1.1.0": {
@@ -6200,7 +6889,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__streamsearch__1.1.0__links": {
@@ -6220,8 +6909,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__string-width__4.2.3": {
@@ -6244,7 +6938,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__string-width__4.2.3__links": {
@@ -6261,8 +6955,8 @@
                 "strip-ansi": "6.0.1"
               },
               "transitive_closure": {
-                "string-width": [
-                  "4.2.3"
+                "ansi-regex": [
+                  "5.0.1"
                 ],
                 "emoji-regex": [
                   "8.0.0"
@@ -6270,18 +6964,23 @@
                 "is-fullwidth-code-point": [
                   "3.0.0"
                 ],
+                "string-width": [
+                  "4.2.3"
+                ],
                 "strip-ansi": [
                   "6.0.1"
-                ],
-                "ansi-regex": [
-                  "5.0.1"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__string-width__5.1.2": {
@@ -6304,7 +7003,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__string-width__5.1.2__links": {
@@ -6321,8 +7020,8 @@
                 "strip-ansi": "7.1.0"
               },
               "transitive_closure": {
-                "string-width": [
-                  "5.1.2"
+                "ansi-regex": [
+                  "6.1.0"
                 ],
                 "eastasianwidth": [
                   "0.2.0"
@@ -6330,18 +7029,23 @@
                 "emoji-regex": [
                   "9.2.2"
                 ],
+                "string-width": [
+                  "5.1.2"
+                ],
                 "strip-ansi": [
                   "7.1.0"
-                ],
-                "ansi-regex": [
-                  "6.1.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__strip-ansi__6.0.1": {
@@ -6364,7 +7068,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__strip-ansi__6.0.1__links": {
@@ -6379,18 +7083,23 @@
                 "ansi-regex": "5.0.1"
               },
               "transitive_closure": {
-                "strip-ansi": [
-                  "6.0.1"
-                ],
                 "ansi-regex": [
                   "5.0.1"
+                ],
+                "strip-ansi": [
+                  "6.0.1"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__strip-ansi__7.1.0": {
@@ -6413,7 +7122,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__strip-ansi__7.1.0__links": {
@@ -6428,18 +7137,23 @@
                 "ansi-regex": "6.1.0"
               },
               "transitive_closure": {
-                "strip-ansi": [
-                  "7.1.0"
-                ],
                 "ansi-regex": [
                   "6.1.0"
+                ],
+                "strip-ansi": [
+                  "7.1.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__strip-final-newline__2.0.0": {
@@ -6462,7 +7176,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__strip-final-newline__2.0.0__links": {
@@ -6482,8 +7196,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__strip-json-comments__2.0.1": {
@@ -6506,7 +7225,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__strip-json-comments__2.0.1__links": {
@@ -6526,8 +7245,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__styled-jsx__5.1.1__react_18.3.1": {
@@ -6550,7 +7274,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__styled-jsx__5.1.1__react_18.3.1__links": {
@@ -6566,27 +7290,32 @@
                 "react": "18.3.1"
               },
               "transitive_closure": {
-                "styled-jsx": [
-                  "5.1.1_react@18.3.1"
-                ],
                 "client-only": [
                   "0.0.1"
                 ],
-                "react": [
-                  "18.3.1"
+                "js-tokens": [
+                  "4.0.0"
                 ],
                 "loose-envify": [
                   "1.4.0"
                 ],
-                "js-tokens": [
-                  "4.0.0"
+                "react": [
+                  "18.3.1"
+                ],
+                "styled-jsx": [
+                  "5.1.1_react@18.3.1"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__supports-color__7.2.0": {
@@ -6609,7 +7338,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__supports-color__7.2.0__links": {
@@ -6624,18 +7353,23 @@
                 "has-flag": "4.0.0"
               },
               "transitive_closure": {
-                "supports-color": [
-                  "7.2.0"
-                ],
                 "has-flag": [
                   "4.0.0"
+                ],
+                "supports-color": [
+                  "7.2.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__tslib__2.8.1": {
@@ -6658,7 +7392,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__tslib__2.8.1__links": {
@@ -6678,8 +7412,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__type-fest__2.19.0": {
@@ -6702,7 +7441,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__type-fest__2.19.0__links": {
@@ -6722,8 +7461,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__typescript__4.9.5": {
@@ -6750,7 +7494,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__typescript__4.9.5__links": {
@@ -6774,8 +7518,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__update-check__1.5.4": {
@@ -6798,7 +7547,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__update-check__1.5.4__links": {
@@ -6814,18 +7563,6 @@
                 "registry-url": "3.1.0"
               },
               "transitive_closure": {
-                "update-check": [
-                  "1.5.4"
-                ],
-                "registry-auth-token": [
-                  "3.3.2"
-                ],
-                "registry-url": [
-                  "3.1.0"
-                ],
-                "rc": [
-                  "1.2.8"
-                ],
                 "deep-extend": [
                   "0.6.0"
                 ],
@@ -6835,18 +7572,35 @@
                 "minimist": [
                   "1.2.8"
                 ],
-                "strip-json-comments": [
-                  "2.0.1"
+                "rc": [
+                  "1.2.8"
+                ],
+                "registry-auth-token": [
+                  "3.3.2"
+                ],
+                "registry-url": [
+                  "3.1.0"
                 ],
                 "safe-buffer": [
                   "5.2.1"
+                ],
+                "strip-json-comments": [
+                  "2.0.1"
+                ],
+                "update-check": [
+                  "1.5.4"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__uri-js__4.4.1": {
@@ -6869,7 +7623,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__uri-js__4.4.1__links": {
@@ -6884,18 +7638,23 @@
                 "punycode": "2.3.1"
               },
               "transitive_closure": {
-                "uri-js": [
-                  "4.4.1"
-                ],
                 "punycode": [
                   "2.3.1"
+                ],
+                "uri-js": [
+                  "4.4.1"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__vary__1.1.2": {
@@ -6918,7 +7677,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__vary__1.1.2__links": {
@@ -6938,8 +7697,13 @@
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__which__2.0.2": {
@@ -6962,7 +7726,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__which__2.0.2__links": {
@@ -6977,18 +7741,23 @@
                 "isexe": "2.0.0"
               },
               "transitive_closure": {
-                "which": [
-                  "2.0.2"
-                ],
                 "isexe": [
                   "2.0.0"
+                ],
+                "which": [
+                  "2.0.2"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__widest-line__4.0.1": {
@@ -7011,7 +7780,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__widest-line__4.0.1__links": {
@@ -7026,11 +7795,8 @@
                 "string-width": "5.1.2"
               },
               "transitive_closure": {
-                "widest-line": [
-                  "4.0.1"
-                ],
-                "string-width": [
-                  "5.1.2"
+                "ansi-regex": [
+                  "6.1.0"
                 ],
                 "eastasianwidth": [
                   "0.2.0"
@@ -7038,18 +7804,26 @@
                 "emoji-regex": [
                   "9.2.2"
                 ],
+                "string-width": [
+                  "5.1.2"
+                ],
                 "strip-ansi": [
                   "7.1.0"
                 ],
-                "ansi-regex": [
-                  "6.1.0"
+                "widest-line": [
+                  "4.0.1"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           },
           "npm__wrap-ansi__8.1.0": {
@@ -7072,7 +7846,7 @@
               "npm_auth_password": "",
               "lifecycle_hooks": [],
               "extra_build_content": "",
-              "generate_bzl_library_targets": true
+              "generate_bzl_library_targets": false
             }
           },
           "npm__wrap-ansi__8.1.0__links": {
@@ -7089,11 +7863,17 @@
                 "strip-ansi": "7.1.0"
               },
               "transitive_closure": {
-                "wrap-ansi": [
-                  "8.1.0"
+                "ansi-regex": [
+                  "6.1.0"
                 ],
                 "ansi-styles": [
                   "6.2.1"
+                ],
+                "eastasianwidth": [
+                  "0.2.0"
+                ],
+                "emoji-regex": [
+                  "9.2.2"
                 ],
                 "string-width": [
                   "5.1.2"
@@ -7101,21 +7881,20 @@
                 "strip-ansi": [
                   "7.1.0"
                 ],
-                "ansi-regex": [
-                  "6.1.0"
-                ],
-                "eastasianwidth": [
-                  "0.2.0"
-                ],
-                "emoji-regex": [
-                  "9.2.2"
+                "wrap-ansi": [
+                  "8.1.0"
                 ]
               },
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
               "lifecycle_hooks_execution_requirements": [],
+              "lifecycle_hooks_use_default_shell_env": false,
               "bins": {},
-              "npm_translate_lock_repo": "npm"
+              "npm_translate_lock_repo": "npm",
+              "package_visibility": [
+                "//visibility:public"
+              ],
+              "replace_package": ""
             }
           }
         },
@@ -7151,6 +7930,11 @@
             "bazel_tools"
           ],
           [
+            "aspect_rules_js+",
+            "yq_darwin_arm64",
+            "aspect_bazel_lib++toolchains+yq_darwin_arm64"
+          ],
+          [
             "bazel_features+",
             "bazel_tools",
             "bazel_tools"
@@ -7158,10 +7942,83 @@
         ]
       }
     },
+    "@@aspect_rules_swc+//swc:extensions.bzl%swc": {
+      "general": {
+        "bzlTransitiveDigest": "1DcCNNvYR585lyLUgtEZUorWa2tl/hDhyuH1O42syzw=",
+        "usagesDigest": "meXvoCxiC5yQGx15jxpgnmu7X7MQiPFldYnBztzBGOI=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "swc_darwin-arm64": {
+            "repoRuleId": "@@aspect_rules_swc+//swc:repositories.bzl%swc_repositories",
+            "attributes": {
+              "platform": "darwin-arm64",
+              "swc_version": "v1.3.75"
+            }
+          },
+          "swc_darwin-x64": {
+            "repoRuleId": "@@aspect_rules_swc+//swc:repositories.bzl%swc_repositories",
+            "attributes": {
+              "platform": "darwin-x64",
+              "swc_version": "v1.3.75"
+            }
+          },
+          "swc_linux-arm64-gnu": {
+            "repoRuleId": "@@aspect_rules_swc+//swc:repositories.bzl%swc_repositories",
+            "attributes": {
+              "platform": "linux-arm64-gnu",
+              "swc_version": "v1.3.75"
+            }
+          },
+          "swc_linux-x64-gnu": {
+            "repoRuleId": "@@aspect_rules_swc+//swc:repositories.bzl%swc_repositories",
+            "attributes": {
+              "platform": "linux-x64-gnu",
+              "swc_version": "v1.3.75"
+            }
+          },
+          "swc_win32-arm64-msvc": {
+            "repoRuleId": "@@aspect_rules_swc+//swc:repositories.bzl%swc_repositories",
+            "attributes": {
+              "platform": "win32-arm64-msvc",
+              "swc_version": "v1.3.75"
+            }
+          },
+          "swc_win32-ia32-msvc": {
+            "repoRuleId": "@@aspect_rules_swc+//swc:repositories.bzl%swc_repositories",
+            "attributes": {
+              "platform": "win32-ia32-msvc",
+              "swc_version": "v1.3.75"
+            }
+          },
+          "swc_win32-x64-msvc": {
+            "repoRuleId": "@@aspect_rules_swc+//swc:repositories.bzl%swc_repositories",
+            "attributes": {
+              "platform": "win32-x64-msvc",
+              "swc_version": "v1.3.75"
+            }
+          },
+          "swc_toolchains": {
+            "repoRuleId": "@@aspect_rules_swc+//swc/private:toolchains_repo.bzl%toolchains_repo",
+            "attributes": {
+              "user_repository_name": "swc"
+            }
+          }
+        },
+        "recordedRepoMappingEntries": [
+          [
+            "aspect_rules_swc+",
+            "bazel_skylib",
+            "bazel_skylib+"
+          ]
+        ]
+      }
+    },
     "@@aspect_rules_ts+//ts:extensions.bzl%ext": {
       "general": {
-        "bzlTransitiveDigest": "BG6tcTd8Ki64euwNjLjFaUn8BgtBoNlPejJ3BEE74LM=",
-        "usagesDigest": "m8Vr9p3n/2Dp2+iLVd8RQSnZnNZkuoyBlLHpyTKw1a4=",
+        "bzlTransitiveDigest": "JgZOPMIx9r5SLh+4SeTPSJhXN8RUu17uuLTtz40pkrY=",
+        "usagesDigest": "DwOAXvg2mcBRvIn5RLQrXIfWXghtvyo605ap+P7ja4s=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -7169,7 +8026,9 @@
           "npm_typescript": {
             "repoRuleId": "@@aspect_rules_ts+//ts/private:npm_repositories.bzl%http_archive_version",
             "attributes": {
-              "version": "5.0.4",
+              "bzlmod": true,
+              "check_for_updates": true,
+              "version": "5.3.3",
               "integrity": "",
               "build_file": "@@aspect_rules_ts+//ts:BUILD.typescript",
               "build_file_substitutions": {
@@ -7205,6 +8064,83 @@
           }
         },
         "recordedRepoMappingEntries": []
+      }
+    },
+    "@@rules_buf+//buf:extensions.bzl%ext": {
+      "general": {
+        "bzlTransitiveDigest": "3jGepUu1j86kWsTP3Fgogw/XfktHd4UIQt8zj494n/Y=",
+        "usagesDigest": "RTc2BMQ2b0wGU8CRvN3EoPz34m3LMe+K/oSkFkN83+M=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "rules_buf_toolchains": {
+            "repoRuleId": "@@rules_buf+//buf/internal:toolchain.bzl%buf_download_releases",
+            "attributes": {
+              "version": "v1.27.0"
+            }
+          }
+        },
+        "recordedRepoMappingEntries": [
+          [
+            "rules_buf+",
+            "bazel_tools",
+            "bazel_tools"
+          ]
+        ]
+      }
+    },
+    "@@rules_go+//go:extensions.bzl%go_sdk": {
+      "general": {
+        "bzlTransitiveDigest": "GI0gnOeyAURBWF+T+482mWnxAoSjspZNDIVvAHGR7Yk=",
+        "usagesDigest": "G0DymwAVABR+Olml5OAfLhVRqUVCU372GHdSQxQ1PJw=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "go_default_sdk": {
+            "repoRuleId": "@@rules_go+//go/private:sdk.bzl%go_download_sdk_rule",
+            "attributes": {
+              "goos": "",
+              "goarch": "",
+              "sdks": {},
+              "urls": [
+                "https://dl.google.com/go/{}"
+              ],
+              "version": "1.19.8"
+            }
+          },
+          "go_toolchains": {
+            "repoRuleId": "@@rules_go+//go/private:sdk.bzl%go_multiple_toolchains",
+            "attributes": {
+              "prefixes": [
+                "_0000_go_default_sdk_"
+              ],
+              "geese": [
+                ""
+              ],
+              "goarchs": [
+                ""
+              ],
+              "sdk_repos": [
+                "go_default_sdk"
+              ],
+              "sdk_types": [
+                "remote"
+              ],
+              "sdk_versions": [
+                "1.19.8"
+              ]
+            }
+          }
+        },
+        "recordedRepoMappingEntries": [
+          [
+            "rules_go+",
+            "bazel_tools",
+            "bazel_tools"
+          ]
+        ]
       }
     },
     "@@rules_java+//java:rules_java_deps.bzl%compatibility_proxy": {
@@ -7296,7 +8232,7 @@
     "@@rules_nodejs+//nodejs:extensions.bzl%node": {
       "general": {
         "bzlTransitiveDigest": "btnelILPo3ngQN9vWtsQMclvJZPf3X2vcGTjmW7Owy8=",
-        "usagesDigest": "HbZkXvW1N+Tlu3Us0TcSU3hnIcBzjkX4AaDl9nE1fKI=",
+        "usagesDigest": "ZdU4L7Hapr0o9Q+CPjWOihEWeuLhcyIovpcuxYUarVU=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},

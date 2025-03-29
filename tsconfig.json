@@ -6,7 +6,6 @@
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
@@ -22,7 +21,9 @@
     "paths": {
       "@web/*": ["./apps/web/src/*"]
     },
-    "baseUrl": "."
+    "baseUrl": ".",
+    "outDir": "dist",
+    "declaration": true
   },
   "include": ["apps/*/src/**/*.ts", "apps/*/src/**/*.tsx"],
   "exclude": ["node_modules"]

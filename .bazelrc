@@ -1,0 +1,12 @@
+# TypeScript configuration
+build --@aspect_rules_ts//ts:skipLibCheck=always
+fetch --@aspect_rules_ts//ts:skipLibCheck=always
+query --@aspect_rules_ts//ts:skipLibCheck=always
+
+# Build settings
+build --enable_bzlmod
+build --incompatible_disallow_empty_glob=false
+
+# Node.js settings
+build --enable_runfiles
+build --experimental_allow_unresolved_symlinks 
