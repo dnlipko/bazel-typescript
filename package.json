@@ -1,0 +1,13 @@
+{
+  "name": "bazel-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^16.14.0",
+    "typescript": "4.9.5"
+  },
+  "main": "src/hello.ts",
+  "repository": "https://github.com/dnlipko/bazel-typescript.git",
+  "author": "dnlipko <dmitrii.lipko@gmail.com>",
+  "license": "MIT"
+}
