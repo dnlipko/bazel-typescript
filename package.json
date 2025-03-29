@@ -18,7 +18,11 @@
   "author": "dnlipko <dmitrii.lipko@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "bazel build //src:hello_binary",
-    "build:pages": "bazel build //src:gh_pages"
+    "start": "./scripts/start-dev.sh",
+    "build": "bazel build //src:gh_pages",
+    "clean": "bazel clean",
+    "clean:all": "bazel clean --expunge",
+    "test": "bazel test //...",
+    "precommit": "./scripts/pre-push-check.sh"
   }
 }
