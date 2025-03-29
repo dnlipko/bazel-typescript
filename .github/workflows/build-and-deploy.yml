@@ -54,8 +54,8 @@ jobs:
     - name: Prepare deployment
       run: |
         mkdir -p _site
+        cp -r bazel-bin/src/components/App.js _site/App.js
         cp -r bazel-bin/src/index.js _site/
-        cp -r bazel-bin/src/components/*.js _site/
         cp -r bazel-bin/src/index.html _site/
         cp -r bazel-bin/src/styles.css _site/
 
