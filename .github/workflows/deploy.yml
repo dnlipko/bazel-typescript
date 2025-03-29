@@ -58,12 +58,15 @@ jobs:
           pnpm install
       
       - name: Build
-        run: pnpm build
+        working-directory: apps/web
+        run: |
+          pnpm build
+          ls -la out/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: src/out
+          path: apps/web/out
       
       - name: Deploy to GitHub Pages
         id: deployment
