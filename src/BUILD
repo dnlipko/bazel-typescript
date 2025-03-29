@@ -1,6 +1,7 @@
 load("@aspect_rules_ts//ts:defs.bzl", "ts_project")
 load("@aspect_bazel_lib//lib:copy_to_bin.bzl", "copy_to_bin")
 load("@aspect_rules_js//js:defs.bzl", "js_library")
+load("@aspect_rules_esbuild//esbuild:defs.bzl", "esbuild")
 
 ts_project(
     name = "hello_ts",
@@ -29,16 +30,21 @@ copy_to_bin(
     srcs = ["styles.css"],
 )
 
-filegroup(
-    name = "hello_binary",
-    srcs = [":hello", ":html", ":styles"],
+esbuild(
+    name = "bundle",
+    entry_point = "index.js",
+    deps = [":hello"],
+    format = "esm",
+    platform = "browser",
+    sourcemap = "external",
+    minify = True,
 )
 
 # Target for GitHub Pages deployment
 filegroup(
     name = "gh_pages",
     srcs = [
-        ":hello",
+        ":bundle",
         ":html",
         ":styles",
     ],
