@@ -3,7 +3,7 @@ load("@aspect_bazel_lib//lib:copy_to_bin.bzl", "copy_to_bin")
 
 ts_project(
     name = "hello",
-    srcs = ["hello.ts"],
+    srcs = ["index.ts"],
     tsconfig = "tsconfig.json",
     declaration = True,
 )

@@ -3,7 +3,7 @@
  * @param name The name to greet
  * @returns A greeting message
  */
-function sayHello(name: string): string {
+export function sayHello(name: string): string {
     return `Hello, ${name}!`;
 }
 
