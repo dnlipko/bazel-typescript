@@ -1,0 +1,87 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+env:
+  NEXT_PUBLIC_BASE_PATH: /bazel-typescript
+  NODE_VERSION: 18
+  PNPM_VERSION: 8
+  BAZEL_VERSION: 7.0.0
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Bazel
+        uses: bazelbuild/setup-bazelisk@v2
+      
+      - name: Mount Bazel cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/bazel
+            ~/.cache/bazel-repo
+          key: ${{ runner.os }}-bazel-${{ hashFiles('.bazelversion', '.bazelrc', 'MODULE.bazel', 'WORKSPACE') }}
+          restore-keys: |
+            ${{ runner.os }}-bazel-
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      
+      - name: Install PNPM
+        run: npm install -g pnpm@${{ env.PNPM_VERSION }}
+      
+      - name: Setup PNPM environment
+        run: |
+          pnpm config set store-dir ~/.pnpm-store
+          echo "PNPM_HOME=$(pnpm root -g)" >> $GITHUB_ENV
+          echo "$PNPM_HOME" >> $GITHUB_PATH
+      
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+      
+      - name: Install dependencies
+        run: |
+          # Remove existing lockfile
+          rm -f pnpm-lock.yaml
+          # Install dependencies and generate a new lockfile
+          pnpm install --no-frozen-lockfile
+      
+      - name: Build
+        run: |
+          bazel build //apps/web:build
+          # Copy the build output to a directory for deployment
+          mkdir -p apps/web/out
+          cp -r bazel-bin/apps/web/build.sh.runfiles/__main__/apps/web/out/* apps/web/out/
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/web/out
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 

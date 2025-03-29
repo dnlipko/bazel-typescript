@@ -1,205 +1,185 @@
 # Build and Deploy Guide
 
-This guide explains how to build the TypeScript project with Bazel and deploy it to GitHub Pages.
+This guide explains how to build and deploy the Next.js application using Bazel in our monorepo structure.
 
-## Table of Contents
-- [Build Process](#build-process)
-  - [Build Targets](#build-targets)
-  - [Local Development](#local-development)
-  - [Local Testing](#local-testing)
-- [Deployment Process](#deployment-process)
-  - [GitHub Actions Workflow](#github-actions-workflow)
-  - [Deployment Configuration](#deployment-configuration)
-  - [Troubleshooting](#troubleshooting)
+## Prerequisites
 
-## Build Process
+- Node.js 18 or later
+- pnpm 8 or later
+- Bazel 7.0 or later
 
-### Build Targets
+## Project Structure
 
-The project includes two main build targets:
-
-1. **Development Build**:
-```bash
-bazel build //src:hello_binary
 ```
-This target:
-- Compiles TypeScript to JavaScript
-- Copies HTML interface to output directory
-- Generates type declarations
-- Suitable for local development
-
-2. **GitHub Pages Build**:
-```bash
-bazel build //src:gh_pages
-```
-This target:
-- Creates a deployment-ready bundle
-- Includes all necessary files for web deployment
-- Used by GitHub Actions for deployment
-
-### Local Development
-
-1. Install dependencies:
-```bash
-pnpm install
+.
+├── apps/
+│   └── web/              # Next.js web application
+│       ├── src/          # Application source code
+│       ├── public/       # Static files
+│       ├── BUILD        # Bazel build configuration
+│       ├── package.json  # App-specific dependencies
+│       └── next.config.js
+├── BUILD                # Root Bazel configuration
+├── MODULE.bazel        # Bazel module configuration
+├── package.json        # Workspace-level dependencies
+└── tsconfig.json      # TypeScript configuration
 ```
 
-2. Build the project:
+## Build Commands
+
+### Development
+
+To start the development server:
+
 ```bash
-bazel build //src:hello_binary
+# Using Bazel
+bazel run //apps/web:dev
+
+# Using pnpm
+pnpm dev:web
 ```
 
-3. Run the compiled JavaScript:
+The development server will be available at `http://localhost:3000`.
+
+### Production Build
+
+To create a production build:
+
 ```bash
-node bazel-bin/src/hello.js
+# Using Bazel
+bazel build //apps/web:build
+
+# Using pnpm
+pnpm build:web
 ```
 
-### Local Testing
+The build output will be available in `apps/web/out/`.
 
-To test the web interface locally:
+## Bazel Configuration
 
-1. Build the GitHub Pages target:
-```bash
-bazel build //src:gh_pages
-```
+### Key Build Targets
 
-2. Locate the built files:
-```bash
-ls bazel-bin/src/
-```
+- `//apps/web:build` - Production build of the web application
+- `//apps/web:dev` - Development server
+- `//apps/web:web_ts` - TypeScript compilation
+- `//apps/web:web_lib` - JavaScript library including all app files
 
-3. Start a local server:
-```bash
-# Using Python's built-in server
-python -m http.server 8000 --directory bazel-bin/src
-```
+### Important Configuration Files
 
-4. Open `http://localhost:8000` in your browser
+1. `apps/web/BUILD`:
+   - Defines the web application build targets
+   - Configures TypeScript compilation with SWC
+   - Manages Next.js build and dev server
 
-## Deployment Process
+2. Root `BUILD`:
+   - Sets up workspace-level dependencies
+   - Configures Next.js binary
+   - Manages shared resources
 
-### GitHub Actions Workflow
+3. `MODULE.bazel`:
+   - Defines external dependencies
+   - Configures npm package management
+   - Sets up TypeScript and SWC tools
 
-The deployment process is automated using GitHub Actions. The workflow file is located at `.github/workflows/build-and-deploy.yml`.
+## Deployment
 
-#### Required Repository Settings
+### GitHub Pages
 
-Before the workflow can run successfully, you need to configure your repository:
+The repository includes a GitHub Actions workflow for deploying to GitHub Pages. The workflow:
 
-1. **Enable GitHub Pages**:
-   - Go to repository Settings → Pages
-   - Under "Build and deployment", select "GitHub Actions"
+1. Sets up the build environment:
+   - Installs Node.js and pnpm
+   - Sets up Bazel with caching
+   - Installs project dependencies
 
-2. **Configure Workflow Permissions**:
-   - Go to Settings → Actions → General
-   - Under "Workflow permissions":
-     - Select "Read and write permissions"
-     - Enable "Allow GitHub Actions to create and approve pull requests"
+2. Builds the application using Bazel:
+   - Runs `bazel build //apps/web:build`
+   - Copies the build output to a deployment directory
 
-3. **Environment Setup**:
-   - The workflow uses the `github-pages` environment
-   - No additional secrets are required as it uses `GITHUB_TOKEN`
+3. Deploys to GitHub Pages:
+   - Uploads the build artifacts
+   - Deploys using GitHub Pages action
 
-#### Workflow Structure
-
-The workflow consists of two main jobs:
-
-1. **Build Job**:
+Configuration in `.github/workflows/deploy.yml`:
 ```yaml
-build:
-  runs-on: ubuntu-latest
-  steps:
-    - Checkout code
-    - Setup Bazel cache
-    - Install Node.js and pnpm
-    - Build with Bazel
-    - Configure GitHub Pages
-    - Prepare and upload artifacts
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  NEXT_PUBLIC_BASE_PATH: /bazel-typescript
+  NODE_VERSION: 18
+  PNPM_VERSION: 8
+  BAZEL_VERSION: 7.0.0
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Bazel
+        uses: bazelbuild/setup-bazelisk@v2
+      - name: Mount Bazel cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/bazel
+          key: ${{ runner.os }}-bazel
+      - uses: pnpm/action-setup@v2
+      - name: Build
+        run: |
+          bazel build //apps/web:build
+          cp -r bazel-bin/apps/web/build.sh.runfiles/__main__/apps/web/out/* apps/web/out/
+      - name: Deploy
+        uses: actions/deploy-pages@v4
 ```
 
-2. **Deploy Job**:
-```yaml
-deploy:
-  needs: build
-  environment:
-    name: github-pages
-  permissions:
-    pages: write
-    id-token: write
-```
+### Manual Deployment
 
-### Deployment Configuration
+To deploy to any static hosting:
 
-#### Required Permissions
+1. Build the application:
+   ```bash
+   bazel build //apps/web:build
+   ```
 
-The workflow requires these permissions:
-```yaml
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-  actions: read
-```
+2. Copy the build output to your deployment directory:
+   ```bash
+   mkdir -p apps/web/out
+   cp -r bazel-bin/apps/web/build.sh.runfiles/__main__/apps/web/out/* apps/web/out/
+   ```
 
-#### Build and Artifact Process
+3. Deploy the contents of `apps/web/out/` to your hosting provider.
 
-1. The workflow builds the project using Bazel:
-```bash
-bazel build //src:gh_pages
-```
+4. For providers requiring specific configurations:
+   - Update `next.config.js` with the appropriate `basePath` and `trailingSlash` settings
+   - Ensure your hosting provider's configuration matches Next.js's static export requirements
 
-2. Prepares deployment files:
-```bash
-mkdir -p _site
-cp bazel-bin/src/hello.js _site/
-cp bazel-bin/src/index.html _site/
-```
+## Troubleshooting
 
-3. Uploads artifacts using `actions/upload-pages-artifact@v3`
+### Common Issues
 
-### Troubleshooting
+1. TypeScript Compilation Errors:
+   - Check `tsconfig.json` settings
+   - Ensure all required dependencies are installed
+   - Verify TypeScript version compatibility
 
-#### Common Issues and Solutions
+2. Bazel Build Failures:
+   - Clear Bazel cache: `bazel clean --expunge`
+   - Update dependencies: `pnpm install`
+   - Check Bazel version compatibility
+   - Verify Bazel configuration in `MODULE.bazel` and `BUILD` files
 
-1. **GitHub Pages Not Enabled**:
-   - Error: "Get Pages site failed"
-   - Solution: 
-     - Go to repository Settings → Pages
-     - Select "GitHub Actions" as the source
-     - Ensure workflow permissions are correct
+3. Next.js Build Issues:
+   - Verify Next.js configuration in `next.config.js`
+   - Check for unsupported features in static export
+   - Ensure all required environment variables are set
 
-2. **Deployment Environment Issues**:
-   - Error: "Value 'github-pages' is not valid"
-   - Solution:
-     - Verify environment name in workflow matches repository settings
-     - Check if GitHub Pages is properly enabled
-     - Ensure repository has necessary permissions
+### Additional Resources
 
-3. **Build Artifacts Missing**:
-   - Error: Files not found in deployment
-   - Solution:
-     - Check Bazel build output: `bazel build //src:gh_pages`
-     - Verify files are copied correctly in the workflow
-     - Check `_site` directory structure
-
-4. **Permission Errors**:
-   - Error: "Resource not accessible by integration"
-   - Solution:
-     - Verify workflow permissions in repository settings
-     - Check if `GITHUB_TOKEN` has correct scopes
-     - Ensure all required permissions are set in workflow file
-
-#### Deployment Verification
-
-After deployment:
-1. Check the Actions tab for workflow status
-2. Visit the GitHub Pages URL (found in repository settings)
-3. Verify all assets are loading correctly
-4. Check browser console for any errors
-
-## Additional Resources
-
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [GitHub Actions Documentation](https://docs.github.com/en/actions)
-- [Bazel Build System](https://bazel.build/docs)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/) 
+- [Next.js Static Export Documentation](https://nextjs.org/docs/pages/building-your-application/deploying/static-exports)
+- [Bazel JavaScript Rules](https://docs.aspect.build/rules/aspect_rules_js)
+- [TypeScript Rules for Bazel](https://docs.aspect.build/rules/aspect_rules_ts)
+- [GitHub Pages Documentation](https://docs.github.com/en/pages) 
