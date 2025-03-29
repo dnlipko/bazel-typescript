@@ -1,205 +1,275 @@
 # Build and Deploy Guide
 
-This guide explains how to build the TypeScript project with Bazel and deploy it to GitHub Pages.
+This guide details the build and deployment process for the Next.js TypeScript project using Static Site Generation (SSG).
 
 ## Table of Contents
 - [Build Process](#build-process)
-  - [Build Targets](#build-targets)
-  - [Local Development](#local-development)
-  - [Local Testing](#local-testing)
+  - [Development Build](#development-build)
+  - [Production Build](#production-build)
+  - [Static Export](#static-export)
+- [Local Testing](#local-testing)
 - [Deployment Process](#deployment-process)
-  - [GitHub Actions Workflow](#github-actions-workflow)
-  - [Deployment Configuration](#deployment-configuration)
-  - [Troubleshooting](#troubleshooting)
+  - [GitHub Pages](#github-pages)
+  - [Manual Deployment](#manual-deployment)
+- [Configuration](#configuration)
+  - [Next.js Config](#nextjs-config)
+  - [TypeScript Config](#typescript-config)
+- [Troubleshooting](#troubleshooting)
 
 ## Build Process
 
-### Build Targets
+### Development Build
 
-The project includes two main build targets:
-
-1. **Development Build**:
+For local development:
 ```bash
-bazel build //src:hello_binary
-```
-This target:
-- Compiles TypeScript to JavaScript
-- Copies HTML interface to output directory
-- Generates type declarations
-- Suitable for local development
-
-2. **GitHub Pages Build**:
-```bash
-bazel build //src:gh_pages
-```
-This target:
-- Creates a deployment-ready bundle
-- Includes all necessary files for web deployment
-- Used by GitHub Actions for deployment
-
-### Local Development
-
-1. Install dependencies:
-```bash
-pnpm install
+pnpm dev
 ```
 
-2. Build the project:
+This starts the Next.js development server with:
+- Hot Module Replacement (HMR)
+- Fast Refresh for React components
+- Development error overlay
+- TypeScript type checking
+
+### Production Build
+
+To create a production build:
 ```bash
-bazel build //src:hello_binary
+pnpm build
 ```
 
-3. Run the compiled JavaScript:
+This process:
+1. Type checks all TypeScript files
+2. Compiles TypeScript to JavaScript
+3. Generates static HTML for all pages
+4. Optimizes JavaScript bundles
+5. Minifies CSS and JavaScript
+6. Processes and optimizes images
+7. Creates a production-ready build in `src/.next`
+
+### Static Export
+
+The project is configured for Static Site Generation (SSG). The build process automatically exports static files to `src/out` directory, containing:
+- Pre-rendered HTML pages
+- JavaScript bundles
+- CSS files
+- Static assets (images, fonts, etc.)
+
+## Local Testing
+
+Test the production build locally:
+
 ```bash
-node bazel-bin/src/hello.js
+# Build the static site
+pnpm build
+
+# Serve the static files
+pnpm start
 ```
 
-### Local Testing
-
-To test the web interface locally:
-
-1. Build the GitHub Pages target:
-```bash
-bazel build //src:gh_pages
-```
-
-2. Locate the built files:
-```bash
-ls bazel-bin/src/
-```
-
-3. Start a local server:
-```bash
-# Using Python's built-in server
-python -m http.server 8000 --directory bazel-bin/src
-```
-
-4. Open `http://localhost:8000` in your browser
+Visit `http://localhost:3000` to verify:
+- All pages load correctly
+- Styles are applied
+- Interactive features work
+- Assets are loading properly
 
 ## Deployment Process
 
-### GitHub Actions Workflow
+### GitHub Pages
 
-The deployment process is automated using GitHub Actions. The workflow file is located at `.github/workflows/build-and-deploy.yml`.
+#### 1. Repository Setup
 
-#### Required Repository Settings
+1. Go to repository Settings → Pages
+2. Set "Source" to "GitHub Actions"
+3. Ensure proper permissions are set:
+   - Actions: Read/Write
+   - Pages: Write
+   - ID Token: Write
 
-Before the workflow can run successfully, you need to configure your repository:
+#### 2. Workflow Configuration
 
-1. **Enable GitHub Pages**:
-   - Go to repository Settings → Pages
-   - Under "Build and deployment", select "GitHub Actions"
+The `.github/workflows/deploy.yml` handles automatic deployment:
 
-2. **Configure Workflow Permissions**:
-   - Go to Settings → Actions → General
-   - Under "Workflow permissions":
-     - Select "Read and write permissions"
-     - Enable "Allow GitHub Actions to create and approve pull requests"
-
-3. **Environment Setup**:
-   - The workflow uses the `github-pages` environment
-   - No additional secrets are required as it uses `GITHUB_TOKEN`
-
-#### Workflow Structure
-
-The workflow consists of two main jobs:
-
-1. **Build Job**:
 ```yaml
-build:
-  runs-on: ubuntu-latest
-  steps:
-    - Checkout code
-    - Setup Bazel cache
-    - Install Node.js and pnpm
-    - Build with Bazel
-    - Configure GitHub Pages
-    - Prepare and upload artifacts
-```
+name: Deploy to GitHub Pages
 
-2. **Deploy Job**:
-```yaml
-deploy:
-  needs: build
-  environment:
-    name: github-pages
-  permissions:
-    pages: write
-    id-token: write
-```
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
 
-### Deployment Configuration
-
-#### Required Permissions
-
-The workflow requires these permissions:
-```yaml
 permissions:
   contents: read
   pages: write
   id-token: write
-  actions: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Install dependencies
+        run: pnpm install
+      - name: Build
+        run: pnpm build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: src/out
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 ```
 
-#### Build and Artifact Process
+### Manual Deployment
 
-1. The workflow builds the project using Bazel:
+For other hosting platforms:
+
+1. Build the static site:
 ```bash
-bazel build //src:gh_pages
+pnpm build
 ```
 
-2. Prepares deployment files:
+2. The `src/out` directory contains all necessary files for deployment
+3. Upload the contents to your hosting provider
+4. Configure your server to handle client-side routing (if needed)
+
+## Configuration
+
+### Next.js Config
+
+`next.config.js` is configured for static exports:
+
+```javascript
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  trailingSlash: true,
+}
+
+module.exports = nextConfig
+```
+
+### TypeScript Config
+
+`tsconfig.json` settings for Next.js:
+
+```json
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+```
+
+## Troubleshooting
+
+### Build Issues
+
+1. **Next.js Build Failures**
+   - Clear build cache:
+     ```bash
+     rm -rf src/.next
+     rm -rf node_modules/.cache
+     ```
+   - Reinstall dependencies:
+     ```bash
+     rm -rf node_modules
+     pnpm install
+     ```
+
+2. **TypeScript Errors**
+   - Check import paths
+   - Verify component props have correct types
+   - Ensure `tsconfig.json` is properly configured
+
+3. **Static Export Issues**
+   - Verify no server-side only features are used
+   - Check image optimization settings
+   - Ensure all dynamic routes have proper static paths
+
+### Deployment Issues
+
+1. **GitHub Pages**
+   - Verify GitHub Actions permissions
+   - Check workflow runs for detailed errors
+   - Ensure `basePath` is correctly set in `next.config.js`
+
+2. **Static Files**
+   - Check if all files are in `src/out`
+   - Verify file permissions
+   - Ensure all paths are relative
+
+### Common Solutions
+
+1. **Clear All Caches**
 ```bash
-mkdir -p _site
-cp bazel-bin/src/hello.js _site/
-cp bazel-bin/src/index.html _site/
+# Clear Next.js cache
+rm -rf src/.next
+# Clear node_modules cache
+rm -rf node_modules/.cache
 ```
 
-3. Uploads artifacts using `actions/upload-pages-artifact@v3`
+2. **Full Rebuild**
+```bash
+# Remove all dependencies
+rm -rf node_modules
+# Clean install
+pnpm install
+# Rebuild
+pnpm build
+```
 
-### Troubleshooting
-
-#### Common Issues and Solutions
-
-1. **GitHub Pages Not Enabled**:
-   - Error: "Get Pages site failed"
-   - Solution: 
-     - Go to repository Settings → Pages
-     - Select "GitHub Actions" as the source
-     - Ensure workflow permissions are correct
-
-2. **Deployment Environment Issues**:
-   - Error: "Value 'github-pages' is not valid"
-   - Solution:
-     - Verify environment name in workflow matches repository settings
-     - Check if GitHub Pages is properly enabled
-     - Ensure repository has necessary permissions
-
-3. **Build Artifacts Missing**:
-   - Error: Files not found in deployment
-   - Solution:
-     - Check Bazel build output: `bazel build //src:gh_pages`
-     - Verify files are copied correctly in the workflow
-     - Check `_site` directory structure
-
-4. **Permission Errors**:
-   - Error: "Resource not accessible by integration"
-   - Solution:
-     - Verify workflow permissions in repository settings
-     - Check if `GITHUB_TOKEN` has correct scopes
-     - Ensure all required permissions are set in workflow file
-
-#### Deployment Verification
-
-After deployment:
-1. Check the Actions tab for workflow status
-2. Visit the GitHub Pages URL (found in repository settings)
-3. Verify all assets are loading correctly
-4. Check browser console for any errors
+3. **Verify Configuration**
+```bash
+# Check Next.js info
+pnpm next info
+```
 
 ## Additional Resources
 
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Static Site Generation Guide](https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [GitHub Actions Documentation](https://docs.github.com/en/actions)
-- [Bazel Build System](https://bazel.build/docs)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/) 
