@@ -31,8 +31,6 @@ jobs:
       
       - name: Setup Bazel
         uses: bazelbuild/setup-bazelisk@v2
-        with:
-          version: ${{ env.BAZEL_VERSION }}
       
       - name: Mount Bazel cache
         uses: actions/cache@v3
@@ -48,10 +46,13 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
       
-      - uses: pnpm/action-setup@v2
-        with:
-          version: ${{ env.PNPM_VERSION }}
-          run_install: false
+      - name: Install PNPM
+        run: npm install -g pnpm@${{ env.PNPM_VERSION }}
+      
+      - name: Setup PNPM environment
+        run: |
+          echo "PNPM_HOME=$(pnpm root -g)" >> $GITHUB_ENV
+          echo "$PNPM_HOME" >> $GITHUB_PATH
       
       - name: Get pnpm store directory
         shell: bash
