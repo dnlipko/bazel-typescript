@@ -64,7 +64,11 @@ jobs:
             ${{ runner.os }}-pnpm-store-
       
       - name: Install dependencies
-        run: pnpm install
+        run: |
+          # Remove existing lockfile
+          rm -f pnpm-lock.yaml
+          # Install dependencies and generate a new lockfile
+          pnpm install --no-frozen-lockfile
       
       - name: Build
         run: |
