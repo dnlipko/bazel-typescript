@@ -51,18 +51,14 @@ jobs:
       
       - name: Setup PNPM environment
         run: |
+          pnpm config set store-dir ~/.pnpm-store
           echo "PNPM_HOME=$(pnpm root -g)" >> $GITHUB_ENV
           echo "$PNPM_HOME" >> $GITHUB_PATH
-      
-      - name: Get pnpm store directory
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
       
       - uses: actions/cache@v3
         name: Setup pnpm cache
         with:
-          path: ${{ env.STORE_PATH }}
+          path: ~/.pnpm-store
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
