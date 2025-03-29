@@ -1,19 +1,21 @@
 load("@aspect_rules_ts//ts:defs.bzl", "ts_project")
 load("@aspect_rules_js//js:defs.bzl", "js_binary", "js_library")
-load("@aspect_rules_js//npm:defs.bzl", "npm_package")
 load("@aspect_bazel_lib//lib:copy_to_bin.bzl", "copy_to_bin")
 
 package(default_visibility = ["//visibility:public"])
 
-# Copy Next.js config to bin
+# Copy app-specific files to bin
 copy_to_bin(
-    name = "next_config",
-    srcs = ["next.config.js"],
+    name = "config_files",
+    srcs = [
+        "next.config.js",
+        "package.json",
+    ],
 )
 
 # TypeScript project for the Next.js app
 ts_project(
-    name = "next_ts",
+    name = "web_ts",
     srcs = glob([
         "src/app/**/*.ts",
         "src/app/**/*.tsx",
@@ -27,12 +29,13 @@ ts_project(
 
 # JavaScript library including all app files
 js_library(
-    name = "next_lib",
+    name = "web_lib",
     srcs = glob([
         "src/app/**/*",
         "src/components/**/*",
         "src/styles/**/*.css",
-    ]) + [":next_ts"],
+        "public/**/*",
+    ]) + [":web_ts"],
     deps = ["//:node_modules"],
 )
 
@@ -40,10 +43,9 @@ js_library(
 js_binary(
     name = "build",
     data = [
-        ":next_lib",
-        ":next_config",
-        "//:tsconfig",
-        "//:package_json",
+        ":web_lib",
+        ":config_files",
+        "//:workspace_files",
         "//:node_modules/next",
     ],
     entry_point = "@npm//next/dist/bin:next",
@@ -54,10 +56,9 @@ js_binary(
 js_binary(
     name = "dev",
     data = [
-        ":next_lib",
-        ":next_config",
-        "//:tsconfig",
-        "//:package_json",
+        ":web_lib",
+        ":config_files",
+        "//:workspace_files",
         "//:node_modules/next",
     ],
     entry_point = "@npm//next/dist/bin:next",
