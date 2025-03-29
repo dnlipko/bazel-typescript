@@ -14,6 +14,7 @@ env:
   NEXT_PUBLIC_BASE_PATH: /bazel-typescript
   NODE_VERSION: 18
   PNPM_VERSION: 8
+  BAZEL_VERSION: 7.0.0
 
 concurrency:
   group: "pages"
@@ -27,6 +28,21 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Setup Bazel
+        uses: bazelbuild/setup-bazelisk@v2
+        with:
+          version: ${{ env.BAZEL_VERSION }}
+      
+      - name: Mount Bazel cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/bazel
+            ~/.cache/bazel-repo
+          key: ${{ runner.os }}-bazel-${{ hashFiles('.bazelversion', '.bazelrc', 'MODULE.bazel', 'WORKSPACE') }}
+          restore-keys: |
+            ${{ runner.os }}-bazel-
       
       - uses: actions/setup-node@v4
         with:
@@ -51,17 +67,14 @@ jobs:
             ${{ runner.os }}-pnpm-store-
       
       - name: Install dependencies
-        run: |
-          # First try to migrate the lockfile
-          pnpm install --lockfile-only
-          # Then install dependencies
-          pnpm install
+        run: pnpm install
       
       - name: Build
-        working-directory: apps/web
         run: |
-          pnpm build
-          ls -la out/
+          bazel build //apps/web:build
+          # Copy the build output to a directory for deployment
+          mkdir -p apps/web/out
+          cp -r bazel-bin/apps/web/build.sh.runfiles/__main__/apps/web/out/* apps/web/out/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

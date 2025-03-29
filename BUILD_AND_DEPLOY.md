@@ -1,95 +1,106 @@
 # Build and Deploy Guide
 
-This guide details the build and deployment process for the Next.js TypeScript project using Static Site Generation (SSG).
+This guide explains how to build and deploy the Next.js application using Bazel in our monorepo structure.
 
-## Table of Contents
-- [Build Process](#build-process)
-  - [Development Build](#development-build)
-  - [Production Build](#production-build)
-  - [Static Export](#static-export)
-- [Local Testing](#local-testing)
-- [Deployment Process](#deployment-process)
-  - [GitHub Pages](#github-pages)
-  - [Manual Deployment](#manual-deployment)
-- [Configuration](#configuration)
-  - [Next.js Config](#nextjs-config)
-  - [TypeScript Config](#typescript-config)
-- [Troubleshooting](#troubleshooting)
+## Prerequisites
 
-## Build Process
+- Node.js 18 or later
+- pnpm 8 or later
+- Bazel 7.0 or later
 
-### Development Build
+## Project Structure
 
-For local development:
-```bash
-pnpm dev
+```
+.
+├── apps/
+│   └── web/              # Next.js web application
+│       ├── src/          # Application source code
+│       ├── public/       # Static files
+│       ├── BUILD        # Bazel build configuration
+│       ├── package.json  # App-specific dependencies
+│       └── next.config.js
+├── BUILD                # Root Bazel configuration
+├── MODULE.bazel        # Bazel module configuration
+├── package.json        # Workspace-level dependencies
+└── tsconfig.json      # TypeScript configuration
 ```
 
-This starts the Next.js development server with:
-- Hot Module Replacement (HMR)
-- Fast Refresh for React components
-- Development error overlay
-- TypeScript type checking
+## Build Commands
+
+### Development
+
+To start the development server:
+
+```bash
+# Using Bazel
+bazel run //apps/web:dev
+
+# Using pnpm
+pnpm dev:web
+```
+
+The development server will be available at `http://localhost:3000`.
 
 ### Production Build
 
 To create a production build:
-```bash
-pnpm build
-```
-
-This process:
-1. Type checks all TypeScript files
-2. Compiles TypeScript to JavaScript
-3. Generates static HTML for all pages
-4. Optimizes JavaScript bundles
-5. Minifies CSS and JavaScript
-6. Processes and optimizes images
-7. Creates a production-ready build in `src/.next`
-
-### Static Export
-
-The project is configured for Static Site Generation (SSG). The build process automatically exports static files to `src/out` directory, containing:
-- Pre-rendered HTML pages
-- JavaScript bundles
-- CSS files
-- Static assets (images, fonts, etc.)
-
-## Local Testing
-
-Test the production build locally:
 
 ```bash
-# Build the static site
-pnpm build
+# Using Bazel
+bazel build //apps/web:build
 
-# Serve the static files
-pnpm start
+# Using pnpm
+pnpm build:web
 ```
 
-Visit `http://localhost:3000` to verify:
-- All pages load correctly
-- Styles are applied
-- Interactive features work
-- Assets are loading properly
+The build output will be available in `apps/web/out/`.
 
-## Deployment Process
+## Bazel Configuration
+
+### Key Build Targets
+
+- `//apps/web:build` - Production build of the web application
+- `//apps/web:dev` - Development server
+- `//apps/web:web_ts` - TypeScript compilation
+- `//apps/web:web_lib` - JavaScript library including all app files
+
+### Important Configuration Files
+
+1. `apps/web/BUILD`:
+   - Defines the web application build targets
+   - Configures TypeScript compilation with SWC
+   - Manages Next.js build and dev server
+
+2. Root `BUILD`:
+   - Sets up workspace-level dependencies
+   - Configures Next.js binary
+   - Manages shared resources
+
+3. `MODULE.bazel`:
+   - Defines external dependencies
+   - Configures npm package management
+   - Sets up TypeScript and SWC tools
+
+## Deployment
 
 ### GitHub Pages
 
-#### 1. Repository Setup
+The repository includes a GitHub Actions workflow for deploying to GitHub Pages. The workflow:
 
-1. Go to repository Settings → Pages
-2. Set "Source" to "GitHub Actions"
-3. Ensure proper permissions are set:
-   - Actions: Read/Write
-   - Pages: Write
-   - ID Token: Write
+1. Sets up the build environment:
+   - Installs Node.js and pnpm
+   - Sets up Bazel with caching
+   - Installs project dependencies
 
-#### 2. Workflow Configuration
+2. Builds the application using Bazel:
+   - Runs `bazel build //apps/web:build`
+   - Copies the build output to a deployment directory
 
-The `.github/workflows/deploy.yml` handles automatic deployment:
+3. Deploys to GitHub Pages:
+   - Uploads the build artifacts
+   - Deploys using GitHub Pages action
 
+Configuration in `.github/workflows/deploy.yml`:
 ```yaml
 name: Deploy to GitHub Pages
 
@@ -98,178 +109,77 @@ on:
     branches: [main]
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+env:
+  NEXT_PUBLIC_BASE_PATH: /bazel-typescript
+  NODE_VERSION: 18
+  PNPM_VERSION: 8
+  BAZEL_VERSION: 7.0.0
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Setup Bazel
+        uses: bazelbuild/setup-bazelisk@v2
+      - name: Mount Bazel cache
+        uses: actions/cache@v3
         with:
-          node-version: 18
+          path: ~/.cache/bazel
+          key: ${{ runner.os }}-bazel
       - uses: pnpm/action-setup@v2
-        with:
-          version: 8
-      - name: Install dependencies
-        run: pnpm install
       - name: Build
-        run: pnpm build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: src/out
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+        run: |
+          bazel build //apps/web:build
+          cp -r bazel-bin/apps/web/build.sh.runfiles/__main__/apps/web/out/* apps/web/out/
+      - name: Deploy
         uses: actions/deploy-pages@v4
 ```
 
 ### Manual Deployment
 
-For other hosting platforms:
+To deploy to any static hosting:
 
-1. Build the static site:
-```bash
-pnpm build
-```
+1. Build the application:
+   ```bash
+   bazel build //apps/web:build
+   ```
 
-2. The `src/out` directory contains all necessary files for deployment
-3. Upload the contents to your hosting provider
-4. Configure your server to handle client-side routing (if needed)
+2. Copy the build output to your deployment directory:
+   ```bash
+   mkdir -p apps/web/out
+   cp -r bazel-bin/apps/web/build.sh.runfiles/__main__/apps/web/out/* apps/web/out/
+   ```
 
-## Configuration
+3. Deploy the contents of `apps/web/out/` to your hosting provider.
 
-### Next.js Config
-
-`next.config.js` is configured for static exports:
-
-```javascript
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
-  trailingSlash: true,
-}
-
-module.exports = nextConfig
-```
-
-### TypeScript Config
-
-`tsconfig.json` settings for Next.js:
-
-```json
-{
-  "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "paths": {
-      "@/*": ["./*"]
-    }
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
-}
-```
+4. For providers requiring specific configurations:
+   - Update `next.config.js` with the appropriate `basePath` and `trailingSlash` settings
+   - Ensure your hosting provider's configuration matches Next.js's static export requirements
 
 ## Troubleshooting
 
-### Build Issues
+### Common Issues
 
-1. **Next.js Build Failures**
-   - Clear build cache:
-     ```bash
-     rm -rf src/.next
-     rm -rf node_modules/.cache
-     ```
-   - Reinstall dependencies:
-     ```bash
-     rm -rf node_modules
-     pnpm install
-     ```
+1. TypeScript Compilation Errors:
+   - Check `tsconfig.json` settings
+   - Ensure all required dependencies are installed
+   - Verify TypeScript version compatibility
 
-2. **TypeScript Errors**
-   - Check import paths
-   - Verify component props have correct types
-   - Ensure `tsconfig.json` is properly configured
+2. Bazel Build Failures:
+   - Clear Bazel cache: `bazel clean --expunge`
+   - Update dependencies: `pnpm install`
+   - Check Bazel version compatibility
+   - Verify Bazel configuration in `MODULE.bazel` and `BUILD` files
 
-3. **Static Export Issues**
-   - Verify no server-side only features are used
-   - Check image optimization settings
-   - Ensure all dynamic routes have proper static paths
+3. Next.js Build Issues:
+   - Verify Next.js configuration in `next.config.js`
+   - Check for unsupported features in static export
+   - Ensure all required environment variables are set
 
-### Deployment Issues
+### Additional Resources
 
-1. **GitHub Pages**
-   - Verify GitHub Actions permissions
-   - Check workflow runs for detailed errors
-   - Ensure `basePath` is correctly set in `next.config.js`
-
-2. **Static Files**
-   - Check if all files are in `src/out`
-   - Verify file permissions
-   - Ensure all paths are relative
-
-### Common Solutions
-
-1. **Clear All Caches**
-```bash
-# Clear Next.js cache
-rm -rf src/.next
-# Clear node_modules cache
-rm -rf node_modules/.cache
-```
-
-2. **Full Rebuild**
-```bash
-# Remove all dependencies
-rm -rf node_modules
-# Clean install
-pnpm install
-# Rebuild
-pnpm build
-```
-
-3. **Verify Configuration**
-```bash
-# Check Next.js info
-pnpm next info
-```
-
-## Additional Resources
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Static Site Generation Guide](https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation)
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/) 
+- [Next.js Static Export Documentation](https://nextjs.org/docs/pages/building-your-application/deploying/static-exports)
+- [Bazel JavaScript Rules](https://docs.aspect.build/rules/aspect_rules_js)
+- [TypeScript Rules for Bazel](https://docs.aspect.build/rules/aspect_rules_ts)
+- [GitHub Pages Documentation](https://docs.github.com/en/pages) 
